@@ -1,4 +1,5 @@
 import requests
+import sys
 import json
 import time
 import os
@@ -42,12 +43,12 @@ class CoinAggregator:
         self.coingecko_api_key = os.environ.get("COINGECKO_API_KEY")
         if not self.coingecko_api_key:
             print("No COINGECKO_API_KEY found in environment variables.")
-            raise Exception
+            sys.exit(1)
 
         self.alchemy_api_key = os.environ.get("ALCHEMY_API_KEY")
         if not self.alchemy_api_key:
             print("No ALCHEMY_API_KEY found in environment variables.")
-            raise Exception
+            sys.exit(1)
 
         # Create output directory structure
         self.base_dir = os.getcwd()
