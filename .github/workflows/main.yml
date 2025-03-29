@@ -2,8 +2,8 @@ name: Token Data Aggregation
 
 on:
   schedule:
-    # Run daily at 2:00 UTC
-    - cron: '0 8 * * *'
+    # Run daily at 10:00 UTC
+    - cron: '0 10 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
@@ -24,13 +24,14 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           
+      - name: Create tokens directory
+        run: mkdir -p tokens
+          
       - name: Run token aggregator
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
         run: |
-          mkdir -p tokens
-          cd tokens
           python coin_info_fetcher.py
           
       - name: Configure Git
