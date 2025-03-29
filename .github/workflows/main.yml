@@ -24,6 +24,15 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Debug environment variables
+        run: |
+          echo "Environment variables check (masked values):"
+          echo "COINGECKO_API_KEY exists: ${{ env.COINGECKO_API_KEY != '' }}"
+          echo "ALCHEMY_API_KEY exists: ${{ env.ALCHEMY_API_KEY != '' }}"
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+
       - name: Create tokens directory
         run: mkdir -p tokens
 
