@@ -3,15 +3,10 @@ import json
 import time
 import os
 import shutil
-import dotenv
-from dotenv import load_dotenv
 
 
 class CoinAggregator:
     def __init__(self):
-
-        load_dotenv()
-
         self.chains = {
             "ethereum": "ethereum",
             "solana": "solana",
@@ -44,12 +39,12 @@ class CoinAggregator:
 
         self.alchemy_wait = 0.05  # 50ms between calls (20 calls per second)
 
-        self.coingecko_api_key = os.getenv("COINGECKO_API_KEY")
+        self.coingecko_api_key = os.environ.get("COINGECKO_API_KEY")
         if not self.coingecko_api_key:
             print("No COINGECKO_API_KEY found in environment variables.")
             raise Exception
 
-        self.alchemy_api_key = os.getenv("ALCHEMY_API_KEY")
+        self.alchemy_api_key = os.environ.get("ALCHEMY_API_KEY")
         if not self.alchemy_api_key:
             print("No ALCHEMY_API_KEY found in environment variables.")
             raise Exception
