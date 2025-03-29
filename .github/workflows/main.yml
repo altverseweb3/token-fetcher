@@ -10,6 +10,9 @@ on:
 jobs:
   aggregate-tokens:
     runs-on: ubuntu-latest
+    env:
+      COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+      ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,22 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Debug environment variables
-        run: |
-          echo "Environment variables check (masked values):"
-          echo "COINGECKO_API_KEY exists: ${{ env.COINGECKO_API_KEY != '' }}"
-          echo "ALCHEMY_API_KEY exists: ${{ env.ALCHEMY_API_KEY != '' }}"
-        env:
-          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
-          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
-
       - name: Create tokens directory
         run: mkdir -p tokens
 
       - name: Run token aggregator
-        env:
-          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
-          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
         run: |
           set -eou pipefail && cd tokens && python ../coin_info_fetcher.py && cd ../;
 
