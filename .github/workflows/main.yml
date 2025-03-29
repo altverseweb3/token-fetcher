@@ -32,7 +32,7 @@ jobs:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
         run: |
-          set -eou pipefail && python coin_info_fetcher.py
+          set -eou pipefail && cd tokens && python ../coin_info_fetcher.py && cd ../;
 
       - name: Configure Git
         run: |
