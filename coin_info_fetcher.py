@@ -88,11 +88,18 @@ class CoinAggregator:
         # Step 3: Create buckets for each chain
         chain_buckets = {chain: [] for chain in self.chains}
 
+        # Track already added coins per chain to prevent duplicates
+        chain_added_ids = {chain: set() for chain in self.chains}
+
         # Step 4: Fill buckets based on platform affiliations
         print("Filling chain buckets based on platform affiliations...")
         for coin in all_coins_by_market_cap:
             coin_id = coin["id"]
             for chain_name, platform_name in self.chains.items():
+                # Skip if this coin is already in this chain's bucket
+                if coin_id in chain_added_ids[chain_name]:
+                    continue
+
                 contract_address = self.has_contract_on_platform(
                     coin_id, coins_with_platforms, platform_name
                 )
@@ -109,6 +116,8 @@ class CoinAggregator:
                         "local_image": f"{coin.get('id')}.png",
                     }
                     chain_buckets[chain_name].append(coin_info)
+                    # Mark this coin as added to this chain
+                    chain_added_ids[chain_name].add(coin_id)
 
         # Step 5: Process each chain bucket
         for chain_name, tokens in chain_buckets.items():
@@ -172,10 +181,18 @@ class CoinAggregator:
         # Step 3: Create bucket for the chain
         chain_bucket = []
 
+        # Track already added coin IDs to prevent duplicates
+        added_coin_ids = set()
+
         # Step 4: Fill bucket based on platform affiliations
         print(f"Finding tokens for {chain_name} on platform {platform_name}...")
         for coin in all_coins_by_market_cap:
             coin_id = coin["id"]
+
+            # Skip if this coin is already in the bucket
+            if coin_id in added_coin_ids:
+                continue
+
             contract_address = self.has_contract_on_platform(
                 coin_id, coins_with_platforms, platform_name
             )
@@ -193,6 +210,8 @@ class CoinAggregator:
                     "local_image": f"{coin.get('id')}.png",
                 }
                 chain_bucket.append(coin_info)
+                # Mark this coin as added
+                added_coin_ids.add(coin_id)
 
         # Step 5: Process the chain bucket
         print(f"Found {len(chain_bucket)} tokens for {chain_name}")
