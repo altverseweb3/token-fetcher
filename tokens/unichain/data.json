@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "abe-cto",
     "symbol": "abe",
     "name": "ABE CTO",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "unicorn-4",
     "symbol": "unicorn",
     "name": "Unicorn",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "hoonicorn-lol",
     "symbol": "hooni",
     "name": "hoonicorn.lol",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1743675218.3059795,
+    "extract_time": 1743761621.7669766,
     "id": "unichain-bridged-weth-unichain",
     "symbol": "weth",
     "name": "Unichain Bridged WETH (Unichain)",
@@ -114,6 +114,19 @@
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1743761621.7669766,
+    "id": "openusdt",
+    "symbol": "ousdt",
+    "name": "OpenUSDT",
+    "contract_address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "local_image": "openusdt.png",
+    "alchemy_metadata": {
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6
     }
   }
 ]
