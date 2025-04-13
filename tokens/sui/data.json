@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -9,7 +9,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui",
     "symbol": "sui",
     "name": "Sui",
@@ -18,16 +18,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "first-digital-usd",
-    "symbol": "fdusd",
-    "name": "First Digital USD",
-    "contract_address": "0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD",
-    "local_image": "first-digital-usd.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "lombard-staked-btc",
     "symbol": "lbtc",
     "name": "Lombard Staked BTC",
@@ -36,7 +27,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "first-digital-usd",
+    "symbol": "fdusd",
+    "name": "First Digital USD",
+    "contract_address": "0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD",
+    "local_image": "first-digital-usd.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "walrus-2",
     "symbol": "wal",
     "name": "Walrus",
@@ -45,7 +45,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "ondo-us-dollar-yield",
     "symbol": "usdy",
     "name": "Ondo US Dollar Yield",
@@ -54,7 +54,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "deep",
     "symbol": "deep",
     "name": "DeepBook",
@@ -63,7 +63,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "lorenzo-stbtc",
     "symbol": "stbtc",
     "name": "Lorenzo stBTC",
@@ -72,7 +72,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "cetus-protocol",
     "symbol": "cetus",
     "name": "Cetus Protocol",
@@ -81,7 +81,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "miu-2",
     "symbol": "miu",
     "name": "MIU",
@@ -90,7 +90,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "bucket-protocol-buck-stablecoin",
     "symbol": "buck",
     "name": "Bucket Protocol BUCK Stablecoin",
@@ -99,7 +99,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sweatcoin",
     "symbol": "sweat",
     "name": "Sweat Economy",
@@ -108,34 +108,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "sui-bridged-ether-sui",
-    "symbol": "sbeth",
-    "name": "Sui Bridged Ether (Sui)",
-    "contract_address": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH",
-    "local_image": "sui-bridged-ether-sui.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "sudeng",
-    "symbol": "hippo",
-    "name": "sudeng",
-    "contract_address": "0x8993129d72e733985f7f1a00396cbd055bad6f817fee36576ce483c8bbb8b87b::sudeng::SUDENG",
-    "local_image": "sudeng.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "navi",
-    "symbol": "navx",
-    "name": "NAVI Protocol",
-    "contract_address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
-    "local_image": "navi.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "bluefin",
     "symbol": "blue",
     "name": "Bluefin",
@@ -144,7 +117,34 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "sui-bridged-ether-sui",
+    "symbol": "sbeth",
+    "name": "Sui Bridged Ether (Sui)",
+    "contract_address": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH",
+    "local_image": "sui-bridged-ether-sui.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "navi",
+    "symbol": "navx",
+    "name": "NAVI Protocol",
+    "contract_address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+    "local_image": "navi.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "sudeng",
+    "symbol": "hippo",
+    "name": "sudeng",
+    "contract_address": "0x8993129d72e733985f7f1a00396cbd055bad6f817fee36576ce483c8bbb8b87b::sudeng::SUDENG",
+    "local_image": "sudeng.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "spring-staked-sui",
     "symbol": "ssui",
     "name": "Spring Staked SUI",
@@ -153,7 +153,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suilend",
     "symbol": "send",
     "name": "Suilend",
@@ -162,7 +162,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suins-token",
     "symbol": "ns",
     "name": "SuiNS Token",
@@ -171,7 +171,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "slove",
     "symbol": "slove",
     "name": "SLOVE",
@@ -180,7 +180,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "alpha-fi",
     "symbol": "alpha",
     "name": "Alpha Fi",
@@ -189,16 +189,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "agora-dollar",
-    "symbol": "ausd",
-    "name": "AUSD",
-    "contract_address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::",
-    "local_image": "agora-dollar.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "lofi-2",
     "symbol": "lofi",
     "name": "LOFI",
@@ -207,7 +198,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "agora-dollar",
+    "symbol": "ausd",
+    "name": "AUSD",
+    "contract_address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::",
+    "local_image": "agora-dollar.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "onbuff",
     "symbol": "lwa",
     "name": "LumiWave",
@@ -216,7 +216,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "scallop-2",
     "symbol": "sca",
     "name": "Scallop",
@@ -225,7 +225,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "memefi-2",
     "symbol": "memefi",
     "name": "MemeFi",
@@ -234,7 +234,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "pstake-finance",
     "symbol": "pstake",
     "name": "pSTAKE Finance",
@@ -243,16 +243,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "blub",
-    "symbol": "blub",
-    "name": "BLUB",
-    "contract_address": "0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB",
-    "local_image": "blub.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "kriyadex",
     "symbol": "kdx",
     "name": "Kriya",
@@ -261,16 +252,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "bluemove",
-    "symbol": "move",
-    "name": "BlueMove",
-    "contract_address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
-    "local_image": "bluemove.png",
+    "extract_time": 1744539186.7095733,
+    "id": "blub",
+    "symbol": "blub",
+    "name": "BLUB",
+    "contract_address": "0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB",
+    "local_image": "blub.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "typus",
     "symbol": "typus",
     "name": "Typus",
@@ -279,7 +270,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "bucket-token",
     "symbol": "but",
     "name": "Bucket Token",
@@ -288,16 +279,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "meta-usd",
-    "symbol": "musd",
-    "name": "Meta USD",
-    "contract_address": "0xe44df51c0b21a27ab915fa1fe2ca610cd3eaa6d9666fe5e62b988bf7f0bd8722::musd::MUSD",
-    "local_image": "meta-usd.png",
+    "extract_time": 1744539186.7095733,
+    "id": "bluemove",
+    "symbol": "move",
+    "name": "BlueMove",
+    "contract_address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
+    "local_image": "bluemove.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "fud-the-pug",
     "symbol": "fud",
     "name": "Fud the Pug",
@@ -306,7 +297,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "meta-usd",
+    "symbol": "musd",
+    "name": "Meta USD",
+    "contract_address": "0xe44df51c0b21a27ab915fa1fe2ca610cd3eaa6d9666fe5e62b988bf7f0bd8722::musd::MUSD",
+    "local_image": "meta-usd.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "suiai",
     "symbol": "suai",
     "name": "SuiAI",
@@ -315,7 +315,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "balance-tokens",
     "symbol": "baln",
     "name": "Balanced",
@@ -324,7 +324,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "turbos-finance",
     "symbol": "turbos",
     "name": "Turbos Finance",
@@ -333,7 +333,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "seed-3",
     "symbol": "seed",
     "name": "SEED",
@@ -342,7 +342,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suipad",
     "symbol": "suip",
     "name": "SuiPad",
@@ -351,7 +351,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sonic-snipe-bot",
     "symbol": "sonic",
     "name": "Sonic Snipe Bot",
@@ -360,7 +360,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "flowx-finance",
     "symbol": "flx",
     "name": "FlowX Finance",
@@ -369,16 +369,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "wave",
-    "symbol": "wav",
-    "name": "WAVE",
-    "contract_address": "0x82616322719cb327186d5b83a6d7783ce5cef4c5dbd4c6d1b5f3d6e5d288e2be::wav::WAV",
-    "local_image": "wave.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sroomai-dao",
     "symbol": "shr0",
     "name": "SroomAI DAO",
@@ -387,7 +378,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "wave",
+    "symbol": "wav",
+    "name": "WAVE",
+    "contract_address": "0x82616322719cb327186d5b83a6d7783ce5cef4c5dbd4c6d1b5f3d6e5d288e2be::wav::WAV",
+    "local_image": "wave.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "sui-agents",
     "symbol": "suiai",
     "name": "SUI Agents",
@@ -396,7 +396,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "tardi",
     "symbol": "tardi",
     "name": "Tardi",
@@ -405,7 +405,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "chirp-token",
     "symbol": "chirp",
     "name": "Chirp Token",
@@ -414,16 +414,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "artfi",
-    "symbol": "artfi",
-    "name": "ARTFI",
-    "contract_address": "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::ARTFI",
-    "local_image": "artfi.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "rockee-ai",
     "symbol": "rock",
     "name": "Rockee AI",
@@ -432,16 +423,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "zenfrogs",
-    "symbol": "zen",
-    "name": "ZenFrogs",
-    "contract_address": "0x2665dc784c7ff17fddba2442b36cb8b2bbc8adfa9fe08794fd941d80ef2758ec::zen::ZEN",
-    "local_image": "zenfrogs.png",
+    "extract_time": 1744539186.7095733,
+    "id": "artfi",
+    "symbol": "artfi",
+    "name": "ARTFI",
+    "contract_address": "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::ARTFI",
+    "local_image": "artfi.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "aaa-cat",
     "symbol": "aaa",
     "name": "aaa cat",
@@ -450,16 +441,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "usd-coin-wormhole-bnb",
-    "symbol": "usdcbnb",
-    "name": "Bridged USD Coin (Wormhole BNB)",
-    "contract_address": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
-    "local_image": "usd-coin-wormhole-bnb.png",
+    "extract_time": 1744539186.7095733,
+    "id": "zenfrogs",
+    "symbol": "zen",
+    "name": "ZenFrogs",
+    "contract_address": "0x2665dc784c7ff17fddba2442b36cb8b2bbc8adfa9fe08794fd941d80ef2758ec::zen::ZEN",
+    "local_image": "zenfrogs.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "pumpkin-token",
     "symbol": "pumpkin",
     "name": "PUMPKIN TOKEN",
@@ -468,52 +459,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "e4c",
-    "symbol": "e4c",
-    "name": "E4C",
-    "contract_address": "0x84b27ddadc6139c7e8837fef6759eba4670ba3fc0679acd118b4e9252f834e29::e4c::E4C",
-    "local_image": "e4c.png",
+    "extract_time": 1744539186.7095733,
+    "id": "usd-coin-wormhole-bnb",
+    "symbol": "usdcbnb",
+    "name": "Bridged USD Coin (Wormhole BNB)",
+    "contract_address": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
+    "local_image": "usd-coin-wormhole-bnb.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "suicune-on-sui",
-    "symbol": "hsui",
-    "name": "Suicune",
-    "contract_address": "0x8c47c0bde84b7056520a44f46c56383e714cc9b6a55e919d8736a34ec7ccb533::suicune::SUICUNE",
-    "local_image": "suicune-on-sui.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "toilet-dust",
-    "symbol": "toilet",
-    "name": "Toilet Dust",
-    "contract_address": "0xc5b61b1e1f7f88511c9c0c6f475f823c66cc4e2d39a49beb6777059710be8404::toilet::TOILET",
-    "local_image": "toilet-dust.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "tubbi",
-    "symbol": "tubbi",
-    "name": "Tubbi",
-    "contract_address": "0x06106c04a586f0f003fcdf7fb33564f373680ddcc1beb716fd22e2952e227eb3::tubbi::TUBBI",
-    "local_image": "tubbi.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "super-suiyan",
-    "symbol": "suiyan",
-    "name": "Super Suiyan",
-    "contract_address": "0xe0fbaffa16409259e431b3e1ff97bf6129641945b42e5e735c99aeda73a595ac::suiyan::SUIYAN",
-    "local_image": "super-suiyan.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "agent-s",
     "symbol": "s",
     "name": "Agent S",
@@ -522,16 +477,52 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "daossui-token",
-    "symbol": "daos",
-    "name": "Daossui Token",
-    "contract_address": "0xd40cec91f6dca0673b25451fb0d654e62ad13bf6546a32a21ef0c59eba42e71c::daos::DAOS",
-    "local_image": "daossui-token.png",
+    "extract_time": 1744539186.7095733,
+    "id": "e4c",
+    "symbol": "e4c",
+    "name": "E4C",
+    "contract_address": "0x84b27ddadc6139c7e8837fef6759eba4670ba3fc0679acd118b4e9252f834e29::e4c::E4C",
+    "local_image": "e4c.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "suicune-on-sui",
+    "symbol": "hsui",
+    "name": "Suicune",
+    "contract_address": "0x8c47c0bde84b7056520a44f46c56383e714cc9b6a55e919d8736a34ec7ccb533::suicune::SUICUNE",
+    "local_image": "suicune-on-sui.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "super-suiyan",
+    "symbol": "suiyan",
+    "name": "Super Suiyan",
+    "contract_address": "0xe0fbaffa16409259e431b3e1ff97bf6129641945b42e5e735c99aeda73a595ac::suiyan::SUIYAN",
+    "local_image": "super-suiyan.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "tubbi",
+    "symbol": "tubbi",
+    "name": "Tubbi",
+    "contract_address": "0x06106c04a586f0f003fcdf7fb33564f373680ddcc1beb716fd22e2952e227eb3::tubbi::TUBBI",
+    "local_image": "tubbi.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "toilet-dust",
+    "symbol": "toilet",
+    "name": "Toilet Dust",
+    "contract_address": "0xc5b61b1e1f7f88511c9c0c6f475f823c66cc4e2d39a49beb6777059710be8404::toilet::TOILET",
+    "local_image": "toilet-dust.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "times",
     "symbol": "$times",
     "name": "TIMES",
@@ -540,34 +531,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "suite-2",
-    "symbol": "suite",
-    "name": "Suite",
-    "contract_address": "0x818e9258be113f30316dedd24703df7d2ba27eab925e1bf744166d71c487342a::suite::SUITE",
-    "local_image": "suite-2.png",
+    "extract_time": 1744539186.7095733,
+    "id": "daossui-token",
+    "symbol": "daos",
+    "name": "Daossui Token",
+    "contract_address": "0xd40cec91f6dca0673b25451fb0d654e62ad13bf6546a32a21ef0c59eba42e71c::daos::DAOS",
+    "local_image": "daossui-token.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "uni",
-    "symbol": "uni",
-    "name": "Uni",
-    "contract_address": "0xaf9e228fd0292e2a27b4859bc57a2f3a9faedb9341b6307c84fef163e44790cc::uni::UNI",
-    "local_image": "uni.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "aida",
-    "symbol": "aida",
-    "name": "AIDA",
-    "contract_address": "0x57e93adcecd97fc8b30fc6f124be185f292b648e324773d8fbe6650e8274790f::aida::AIDA",
-    "local_image": "aida.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "pigu",
     "symbol": "pigu",
     "name": "PIGU",
@@ -576,7 +549,25 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "suite-2",
+    "symbol": "suite",
+    "name": "Suite",
+    "contract_address": "0x818e9258be113f30316dedd24703df7d2ba27eab925e1bf744166d71c487342a::suite::SUITE",
+    "local_image": "suite-2.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "aida",
+    "symbol": "aida",
+    "name": "AIDA",
+    "contract_address": "0x57e93adcecd97fc8b30fc6f124be185f292b648e324773d8fbe6650e8274790f::aida::AIDA",
+    "local_image": "aida.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "suiba-inu",
     "symbol": "suib",
     "name": "Suiba Inu",
@@ -585,16 +576,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "sui-trump",
-    "symbol": "suitrump",
-    "name": "SUI TRUMP",
-    "contract_address": "0xdeb831e796f16f8257681c0d5d4108fa94333060300b2459133a96631bf470b8::suitrump::SUITRUMP",
-    "local_image": "sui-trump.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui-monster",
     "symbol": "suimon",
     "name": "Sui Monster",
@@ -603,7 +585,25 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "uni",
+    "symbol": "uni",
+    "name": "Uni",
+    "contract_address": "0xaf9e228fd0292e2a27b4859bc57a2f3a9faedb9341b6307c84fef163e44790cc::uni::UNI",
+    "local_image": "uni.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "sui-trump",
+    "symbol": "suitrump",
+    "name": "SUI TRUMP",
+    "contract_address": "0xdeb831e796f16f8257681c0d5d4108fa94333060300b2459133a96631bf470b8::suitrump::SUITRUMP",
+    "local_image": "sui-trump.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "sacabam",
     "symbol": "scb",
     "name": "Sacabam",
@@ -612,7 +612,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suinami",
     "symbol": "nami",
     "name": "SUINAMI",
@@ -621,7 +621,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "meow-3",
     "symbol": "meow",
     "name": "MEOW",
@@ -630,7 +630,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suijak",
     "symbol": "suijak",
     "name": "Suijak",
@@ -639,7 +639,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "beeg-blue-whale",
     "symbol": "beeg",
     "name": "Beeg Blue Whale",
@@ -648,7 +648,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "dapyai",
     "symbol": "$dapy",
     "name": "DapyAI",
@@ -657,7 +657,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "oceansgallerie-on-sui",
     "symbol": "oceans",
     "name": "OceansGallerie On SUI",
@@ -666,7 +666,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "win-2",
     "symbol": "win",
     "name": "WIN",
@@ -675,7 +675,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui-universe",
     "symbol": "su",
     "name": "Sui Universe",
@@ -684,7 +684,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "osiris",
     "symbol": "osiri",
     "name": "Osiris",
@@ -693,7 +693,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "wewe-2",
     "symbol": "wewe",
     "name": "WEWE",
@@ -702,7 +702,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui-chad",
     "symbol": "chad",
     "name": "Sui Chad",
@@ -711,7 +711,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "seal-dog",
     "symbol": "sog",
     "name": "Seal Dog",
@@ -720,7 +720,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suiman",
     "symbol": "suiman",
     "name": "Suiman",
@@ -729,7 +729,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui-plop",
     "symbol": "plop",
     "name": "SUI Plop",
@@ -738,7 +738,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "sui-depin",
     "symbol": "suidepin",
     "name": "Sui DePIN",
@@ -747,52 +747,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "sui-bull",
-    "symbol": "bull",
-    "name": "Sui Bull",
-    "contract_address": "0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL",
-    "local_image": "sui-bull.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "suitard",
-    "symbol": "std",
-    "name": "suitard",
-    "contract_address": "0x2cddfc6d4fc855917e990e71cd122b1ee8098aa890186ee15a84524ed17cd8c9::suitard::SUITARD",
-    "local_image": "suitard.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "koi-5",
-    "symbol": "koi",
-    "name": "KOI",
-    "contract_address": "0x01d430425a8a681ef26315e78a082fe744f8d0bbdbd1ab76b9fd78ada09bedca::Koi::KOI",
-    "local_image": "koi-5.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "hopper-the-rabbit",
-    "symbol": "hopper",
-    "name": "Hopper the Rabbit",
-    "contract_address": "0xd7b720a37be0f5540e2499c989cbab660ae6b64f28ec54ceeea68ad3936b8d41::hopper::HOPPER",
-    "local_image": "hopper-the-rabbit.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "suilama",
-    "symbol": "suilama",
-    "name": "Suilama",
-    "contract_address": "0x5a4f64079daed04d923c93f3ac4ee04b637e5b3ea2db87d591981c1049508a27::suilama::SUILAMA",
-    "local_image": "suilama.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "neonet-ai-by-suiai",
     "symbol": "neonet",
     "name": "NeoNet AI by SuiAI",
@@ -801,16 +756,52 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "scuba-dog",
-    "symbol": "scuba",
-    "name": "Scuba Dog",
-    "contract_address": "0x9e6d6124287360cc110044d1f1d7d04a0954eb317c76cf7927244bef0706b113::SCUBA::SCUBA",
-    "local_image": "scuba-dog.png",
+    "extract_time": 1744539186.7095733,
+    "id": "sui-bull",
+    "symbol": "bull",
+    "name": "Sui Bull",
+    "contract_address": "0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL",
+    "local_image": "sui-bull.png",
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "suitard",
+    "symbol": "std",
+    "name": "suitard",
+    "contract_address": "0x2cddfc6d4fc855917e990e71cd122b1ee8098aa890186ee15a84524ed17cd8c9::suitard::SUITARD",
+    "local_image": "suitard.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "koi-5",
+    "symbol": "koi",
+    "name": "KOI",
+    "contract_address": "0x01d430425a8a681ef26315e78a082fe744f8d0bbdbd1ab76b9fd78ada09bedca::Koi::KOI",
+    "local_image": "koi-5.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "suilama",
+    "symbol": "suilama",
+    "name": "Suilama",
+    "contract_address": "0x5a4f64079daed04d923c93f3ac4ee04b637e5b3ea2db87d591981c1049508a27::suilama::SUILAMA",
+    "local_image": "suilama.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "hopper-the-rabbit",
+    "symbol": "hopper",
+    "name": "Hopper the Rabbit",
+    "contract_address": "0xd7b720a37be0f5540e2499c989cbab660ae6b64f28ec54ceeea68ad3936b8d41::hopper::HOPPER",
+    "local_image": "hopper-the-rabbit.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "grass-3",
     "symbol": "$grass",
     "name": "GRASS",
@@ -819,7 +810,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "scuba-dog",
+    "symbol": "scuba",
+    "name": "Scuba Dog",
+    "contract_address": "0x9e6d6124287360cc110044d1f1d7d04a0954eb317c76cf7927244bef0706b113::SCUBA::SCUBA",
+    "local_image": "scuba-dog.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "liquor",
     "symbol": "liq",
     "name": "Liquor",
@@ -828,7 +828,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "suibeaver",
     "symbol": "dam",
     "name": "suibeaver",
@@ -837,16 +837,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "suicy-the-seal",
-    "symbol": "suicy",
-    "name": "SUICY the Seal",
-    "contract_address": "0x8989c726bf1ea8736919e41938f3801e286bc71d9612bfe250703232a375eaab::suicy::SUICY",
-    "local_image": "suicy-the-seal.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "bulla-2",
     "symbol": "bulla",
     "name": "BULLA",
@@ -855,7 +846,16 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
+    "id": "suicy-the-seal",
+    "symbol": "suicy",
+    "name": "SUICY the Seal",
+    "contract_address": "0x8989c726bf1ea8736919e41938f3801e286bc71d9612bfe250703232a375eaab::suicy::SUICY",
+    "local_image": "suicy-the-seal.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
     "id": "sui-dawg",
     "symbol": "dawg",
     "name": "SUI DAWG",
@@ -864,7 +864,7 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "mochi-3",
     "symbol": "mochi",
     "name": "Mochi",
@@ -873,30 +873,30 @@
     "alchemy_metadata": {}
   },
   {
-    "extract_time": 1744452704.2830446,
-    "id": "water-on-sui",
-    "symbol": "water",
-    "name": "Water on Sui",
-    "contract_address": "0xb713342104cd25efe0333e481d1caf2c3650b258ec3f3a0b3f6765cd3582624b::water::WATER",
-    "local_image": "water-on-sui.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
-    "id": "captain-goofy",
-    "symbol": "goof",
-    "name": "Captain GOOFY",
-    "contract_address": "0xe0644f3e46b2d9f319a2cc3491155c75d1b6132ba9b3601c6e7e102e17296645::goof::GOOF",
-    "local_image": "captain-goofy.png",
-    "alchemy_metadata": {}
-  },
-  {
-    "extract_time": 1744452704.2830446,
+    "extract_time": 1744539186.7095733,
     "id": "walrus-the-tusk",
     "symbol": "$tusk",
     "name": "Walrus the tusk",
     "contract_address": "0x1fc50c2a9edf1497011c793cb5c88fd5f257fd7009e85a489392f388b1118f82::tusk::TUSK",
     "local_image": "walrus-the-tusk.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "stonefish-ai",
+    "symbol": "sai",
+    "name": "STONEFISH AI",
+    "contract_address": "0x5b40e84bd4b428fb7ae15a4a36ed1527d1b7bfaeae21855a499714175d215c2e::sai::SAI",
+    "local_image": "stonefish-ai.png",
+    "alchemy_metadata": {}
+  },
+  {
+    "extract_time": 1744539186.7095733,
+    "id": "captain-goofy",
+    "symbol": "goof",
+    "name": "Captain GOOFY",
+    "contract_address": "0xe0644f3e46b2d9f319a2cc3491155c75d1b6132ba9b3601c6e7e102e17296645::goof::GOOF",
+    "local_image": "captain-goofy.png",
     "alchemy_metadata": {}
   }
 ]
