@@ -43,6 +43,7 @@ jobs:
       - name: Commit and push if changed
         run: |
           git add tokens/
+          git reset -- tokens/native/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update token data $(date +'%Y-%m-%d')" && git push)
 
       - name: Wait for GitHub synchronization
