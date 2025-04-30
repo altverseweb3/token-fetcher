@@ -32,6 +32,7 @@ class CoinAggregator:
             "binance-smart-chain": "bnb-mainnet",
             "polygon": "polygon-mainnet",
             "unichain": "unichain-mainnet",
+            "solana": "solana-mainnet",
         }
 
         # Set rate limiting for CoinGecko (per their guidelines)
@@ -136,12 +137,9 @@ class CoinAggregator:
             # Download images for new tokens
             self.fetch_token_images(chain_name, top_tokens)
 
-            # Enrich with Alchemy metadata if applicable
-            if chain_name in self.alchemy_networks and self.alchemy_api_key:
-                enriched_tokens = self.enrich_with_alchemy_metadata(
-                    chain_name, top_tokens
-                )
-                top_tokens = enriched_tokens
+            # Enrich with metadata
+            enriched_tokens = self.enrich_with_metadata(chain_name, top_tokens)
+            top_tokens = enriched_tokens
 
             # Remove Uneeded Fields
             final_tokens = self.finalise_and_clean_up_tokens(top_tokens)
@@ -228,10 +226,9 @@ class CoinAggregator:
         # Download images for new tokens
         self.fetch_token_images(chain_name, top_tokens)
 
-        # Enrich with Alchemy metadata if applicable
-        if chain_name in self.alchemy_networks and self.alchemy_api_key:
-            enriched_tokens = self.enrich_with_alchemy_metadata(chain_name, top_tokens)
-            top_tokens = enriched_tokens
+        # Enrich with metadata
+        enriched_tokens = self.enrich_with_metadata(chain_name, top_tokens)
+        top_tokens = enriched_tokens
 
         # Remove Uneeded Fields
         final_tokens = self.finalise_and_clean_up_tokens(top_tokens)
@@ -337,15 +334,8 @@ class CoinAggregator:
                     return "native"
         return None
 
-    def enrich_with_alchemy_metadata(self, chain_name, tokens):
-        """Enrich tokens with metadata from Alchemy API."""
-        if not self.alchemy_api_key or chain_name not in self.alchemy_networks:
-            print(
-                f"Skipping Alchemy enrichment for {chain_name}: No API key or unsupported chain"
-            )
-            return tokens
-
-        print(f"Enriching {len(tokens)} {chain_name} tokens with Alchemy metadata...")
+    def enrich_with_metadata(self, chain_name, tokens):
+        print(f"Enriching {len(tokens)} {chain_name} tokens with metadata...")
         enriched_count = 0
         skipped_count = 0
 
@@ -355,16 +345,14 @@ class CoinAggregator:
                 skipped_count += 1
                 continue
 
-            if token.get("alchemy_metadata"):
-                print(
-                    f"Token {token.get('name', 'Unknown')} already has Alchemy metadata"
-                )
+            if token.get("metadata"):
+                print(f"Token {token.get('name', 'Unknown')} already has metadata")
                 enriched_count += 1
                 continue
 
-            metadata = self.fetch_alchemy_metadata(chain_name, contract_address)
+            metadata = self.fetch_metadata(chain_name, contract_address)
             if metadata:
-                token["alchemy_metadata"] = metadata
+                token["metadata"] = metadata
                 enriched_count += 1
                 print(
                     f"Enriched [{i+1}/{len(tokens)}] {token.get('name')} ({token.get('symbol')})"
@@ -379,78 +367,162 @@ class CoinAggregator:
         )
         return tokens
 
-    def fetch_alchemy_metadata(self, chain_name, contract_address):
+    def fetch_metadata(self, chain_name, contract_address):
         """
-        Fetch token metadata from Alchemy API.
-
-        Returns standardized metadata format including:
-        - name: Token name
-        - symbol: Token symbol
-        - decimals: Token decimals
-        - logo: URL to token logo
-        - totalSupply: Total supply (if available)
+        Fetch token metadata from relevant API.
         """
-        if not self.alchemy_api_key:
-            return None
-
-        if chain_name not in self.alchemy_networks:
-            return None
 
         if not contract_address or contract_address == "native":
             return None
 
-        network = self.alchemy_networks[chain_name]
-        url = f"https://{network}.g.alchemy.com/v2/{self.alchemy_api_key}"
-
         headers = {"Accept": "application/json", "Content-Type": "application/json"}
 
-        payload = {
-            "id": 1,
-            "jsonrpc": "2.0",
-            "method": "alchemy_getTokenMetadata",
-            "params": [contract_address],
-        }
+        # For SUI
+        if chain_name == "sui":
 
-        try:
-            response = requests.post(url, headers=headers, json=payload)
+            url = "https://sui-mainnet-endpoint.blockvision.org"
 
-            if response.status_code == 429:
-                print(f"Alchemy rate limit hit. Waiting 2 seconds...")
-                time.sleep(2)
+            time.sleep(2)
+
+            payload = {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "method": "suix_getCoinMetadata",
+                "params": [contract_address],
+            }
+
+            try:
                 response = requests.post(url, headers=headers, json=payload)
+
                 if response.status_code == 429:
-                    print("Rate limit hit again, skipping this token")
-                    return None
+                    print(f"SUI RPC rate limit hit. Waiting 2 seconds...")
+                    time.sleep(5)
+                    response = requests.post(url, headers=headers, json=payload)
+                    if response.status_code == 429:
+                        print("Rate limit hit again, skipping this token")
+                        return None
 
-            response.raise_for_status()
+                response.raise_for_status()
 
-            time.sleep(self.alchemy_wait)
+                result = response.json()
 
-            result = response.json()
-            if "result" in result:
-                metadata = result["result"]
+                if "result" in result:
+                    metadata = result["result"]
 
-                formatted_metadata = {
-                    "name": metadata.get("name"),
-                    "symbol": metadata.get("symbol"),
-                    "decimals": metadata.get("decimals"),
-                    "logo": metadata.get("logo"),
+                    formatted_metadata = {
+                        "name": metadata.get("name"),
+                        "symbol": metadata.get("symbol"),
+                        "decimals": metadata.get("decimals"),
+                        "description": metadata.get("description"),
+                        "iconUrl": metadata.get("iconUrl"),
+                        "id": metadata.get("id"),
+                    }
+
+                    return formatted_metadata
+
+                return None
+
+            except Exception as e:
+                print(f"Error fetching SUI metadata for {contract_address}: {e}")
+                self.log_error("metadata", f"sui:{contract_address}", str(e))
+                return None
+
+        # EVM chains, Solana
+        else:
+
+            network = self.alchemy_networks[chain_name]
+            url = f"https://{network}.g.alchemy.com/v2/{self.alchemy_api_key}"
+
+            # Solana
+            if chain_name == "solana":
+                payload = {
+                    "id": 1,
+                    "jsonrpc": "2.0",
+                    "method": "getTokenSupply",
+                    "params": [contract_address],
                 }
 
-                if "totalSupply" in metadata:
-                    formatted_metadata["totalSupply"] = metadata["totalSupply"]
+                try:
+                    response = requests.post(url, headers=headers, json=payload)
 
-                return formatted_metadata
+                    if response.status_code == 429:
+                        print(f"Solana API rate limit hit. Waiting 2 seconds...")
+                        time.sleep(2)
+                        response = requests.post(url, headers=headers, json=payload)
+                        if response.status_code == 429:
+                            print("Rate limit hit again, skipping this token")
+                            return None
 
-            return None
-        except Exception as e:
-            print(
-                f"Error fetching Alchemy metadata for {chain_name}:{contract_address}: {e}"
-            )
-            self.log_error(
-                "alchemy_metadata", f"{chain_name}:{contract_address}", str(e)
-            )
-            return None
+                    response.raise_for_status()
+                    time.sleep(self.alchemy_wait)
+
+                    result = response.json()
+
+                    # Extract decimals from token supply response
+                    decimals = None
+                    if "result" in result and "value" in result["result"]:
+                        decimals = result["result"]["value"].get("decimals")
+
+                    formatted_metadata = {
+                        "decimals": decimals,
+                    }
+
+                    return formatted_metadata
+
+                except Exception as e:
+                    print(f"Error fetching Solana decimals for {contract_address}: {e}")
+                    self.log_error("metadata", f"solana:{contract_address}", str(e))
+                    return None
+
+            # EVM
+            else:
+                payload = {
+                    "id": 1,
+                    "jsonrpc": "2.0",
+                    "method": "alchemy_getTokenMetadata",
+                    "params": [contract_address],
+                }
+
+                try:
+                    response = requests.post(url, headers=headers, json=payload)
+
+                    if response.status_code == 429:
+                        print(f"Alchemy rate limit hit. Waiting 2 seconds...")
+                        time.sleep(2)
+                        response = requests.post(url, headers=headers, json=payload)
+                        if response.status_code == 429:
+                            print("Rate limit hit again, skipping this token")
+                            return None
+
+                    response.raise_for_status()
+
+                    time.sleep(self.alchemy_wait)
+
+                    result = response.json()
+                    if "result" in result:
+                        metadata = result["result"]
+
+                        formatted_metadata = {
+                            "name": metadata.get("name"),
+                            "symbol": metadata.get("symbol"),
+                            "decimals": metadata.get("decimals"),
+                            "logo": metadata.get("logo"),
+                        }
+
+                        if "totalSupply" in metadata:
+                            formatted_metadata["totalSupply"] = metadata["totalSupply"]
+
+                        return formatted_metadata
+
+                    return None
+                except Exception as e:
+                    print(
+                        f"Error fetching Alchemy metadata for {chain_name}:{contract_address}: {e}"
+                    )
+                    self.log_error(
+                        "metadata", f"{chain_name}:{contract_address}", str(e)
+                    )
+                return None
 
     def log_error(self, category, item_id, error):
         """Log general errors to a file for tracking."""
@@ -542,8 +614,8 @@ class CoinAggregator:
         final_tokens = []
         for coin in top_tokens:
             print(f"Finalising data for {coin.get('name')} on {coin.get('chain')}")
-            alchemy_metadata = coin.get("alchemy_metadata", {}).copy()
-            alchemy_metadata.pop("logo", None)
+            metadata = coin.get("metadata", {}).copy()
+            metadata.pop("logo", None)
             coin_info = {
                 "extract_time": start_time,
                 "id": coin.get("id"),
@@ -551,7 +623,7 @@ class CoinAggregator:
                 "name": coin.get("name"),
                 "contract_address": coin.get("contract_address"),
                 "local_image": f"{coin.get('id')}.png",
-                "alchemy_metadata": alchemy_metadata,
+                "metadata": metadata,
             }
             final_tokens.append(coin_info)
         return final_tokens
