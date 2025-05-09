@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "chainlink",
     "symbol": "link",
     "name": "Chainlink",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "usds",
     "symbol": "usds",
     "name": "USDS",
@@ -39,33 +39,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "wrapped-eeth",
-    "symbol": "weeth",
-    "name": "Wrapped eETH",
-    "contract_address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
-    "local_image": "wrapped-eeth.png",
-    "metadata": {
-      "name": "Wrapped eETH",
-      "symbol": "weETH",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "coinbase-wrapped-btc",
-    "symbol": "cbbtc",
-    "name": "Coinbase Wrapped BTC",
-    "contract_address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
-    "local_image": "coinbase-wrapped-btc.png",
-    "metadata": {
-      "name": "",
-      "symbol": "",
-      "decimals": null
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "pepe",
     "symbol": "pepe",
     "name": "Pepe",
@@ -78,20 +52,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "susds",
-    "symbol": "susds",
-    "name": "sUSDS",
-    "contract_address": "0xddb46999f8891663a8f2828d25298f70416d7610",
-    "local_image": "susds.png",
+    "extract_time": 1746785649.3923874,
+    "id": "wrapped-eeth",
+    "symbol": "weeth",
+    "name": "Wrapped eETH",
+    "contract_address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+    "local_image": "wrapped-eeth.png",
     "metadata": {
-      "name": "Savings USDS",
-      "symbol": "sUSDS",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "coinbase-wrapped-btc",
+    "symbol": "cbbtc",
+    "name": "Coinbase Wrapped BTC",
+    "contract_address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "local_image": "coinbase-wrapped-btc.png",
+    "metadata": {
+      "name": "",
+      "symbol": "",
+      "decimals": null
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -104,20 +91,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "buidl",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "contract_address": "0xa6525ae43edcd03dc08e775774dcabd3bb925872",
-    "local_image": "blackrock-usd-institutional-digital-liquidity-fund.png",
-    "metadata": {
-      "name": "BlackRock USD Institutional Digital Liquidity Fund",
-      "symbol": "BUIDL",
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "aave",
     "symbol": "aave",
     "name": "Aave",
@@ -130,7 +104,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "susds",
+    "symbol": "susds",
+    "name": "sUSDS",
+    "contract_address": "0xddb46999f8891663a8f2828d25298f70416d7610",
+    "local_image": "susds.png",
+    "metadata": {
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "buidl",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "contract_address": "0xa6525ae43edcd03dc08e775774dcabd3bb925872",
+    "local_image": "blackrock-usd-institutional-digital-liquidity-fund.png",
+    "metadata": {
+      "name": "BlackRock USD Institutional Digital Liquidity Fund",
+      "symbol": "BUIDL",
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "fasttoken",
     "symbol": "ftn",
     "name": "Fasttoken",
@@ -143,7 +143,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "arbitrum",
     "symbol": "arb",
     "name": "Arbitrum",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "bonk",
     "symbol": "bonk",
     "name": "Bonk",
@@ -169,10 +169,10 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "solv-btc",
     "symbol": "solvbtc",
-    "name": "Solv Protocol SolvBTC",
+    "name": "Solv Protocol BTC",
     "contract_address": "0x3647c54c4c2c65bc7a2d63c0da2809b399dbbdc0",
     "local_image": "solv-btc.png",
     "metadata": {
@@ -182,46 +182,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "usdt0",
-    "symbol": "usdt0",
-    "name": "USDT0",
-    "contract_address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-    "local_image": "usdt0.png",
-    "metadata": {
-      "name": "Tether USDt",
-      "symbol": "USDT",
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "curve-dao-token",
-    "symbol": "crv",
-    "name": "Curve DAO",
-    "contract_address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
-    "local_image": "curve-dao-token.png",
-    "metadata": {
-      "name": "Curve DAO Token",
-      "symbol": "CRV",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "the-graph",
-    "symbol": "grt",
-    "name": "The Graph",
-    "contract_address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
-    "local_image": "the-graph.png",
-    "metadata": {
-      "name": "The Graph",
-      "symbol": "GRT",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "rocket-pool-eth",
     "symbol": "reth",
     "name": "Rocket Pool ETH",
@@ -234,33 +195,46 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "arbitrum-bridged-wbtc-arbitrum-one",
-    "symbol": "wbtc",
-    "name": "Arbitrum Bridged WBTC (Arbitrum One)",
-    "contract_address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
-    "local_image": "arbitrum-bridged-wbtc-arbitrum-one.png",
+    "extract_time": 1746785649.3923874,
+    "id": "usdt0",
+    "symbol": "usdt0",
+    "name": "USDT0",
+    "contract_address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "local_image": "usdt0.png",
     "metadata": {
-      "name": "Wrapped Bitcoin",
-      "symbol": "WBTC",
-      "decimals": 8
+      "name": "Tether USDt",
+      "symbol": "USDT",
+      "decimals": 6
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "clbtc",
-    "symbol": "clbtc",
-    "name": "clBTC",
-    "contract_address": "0x1792865d493fe4dfdd504010d3c0f6da11e8046d",
-    "local_image": "clbtc.png",
+    "extract_time": 1746785649.3923874,
+    "id": "curve-dao-token",
+    "symbol": "crv",
+    "name": "Curve DAO",
+    "contract_address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+    "local_image": "curve-dao-token.png",
     "metadata": {
-      "name": "clBTC",
-      "symbol": "clBTC",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "the-graph",
+    "symbol": "grt",
+    "name": "The Graph",
+    "contract_address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+    "local_image": "the-graph.png",
+    "metadata": {
+      "name": "The Graph",
+      "symbol": "GRT",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "lido-dao",
     "symbol": "ldo",
     "name": "Lido DAO",
@@ -273,10 +247,36 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "arbitrum-bridged-wbtc-arbitrum-one",
+    "symbol": "wbtc",
+    "name": "Arbitrum Bridged WBTC (Arbitrum One)",
+    "contract_address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "local_image": "arbitrum-bridged-wbtc-arbitrum-one.png",
+    "metadata": {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "clbtc",
+    "symbol": "clbtc",
+    "name": "clBTC",
+    "contract_address": "0x1792865d493fe4dfdd504010d3c0f6da11e8046d",
+    "local_image": "clbtc.png",
+    "metadata": {
+      "name": "clBTC",
+      "symbol": "clBTC",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "solv-protocol-solvbtc-bbn",
     "symbol": "xsolvbtc",
-    "name": "Solv Protocol xSolvBTC",
+    "name": "Solv Protocol Staked BTC",
     "contract_address": "0x346c574c56e1a4aaa8dc88cda8f7eb12b39947ab",
     "local_image": "solv-protocol-solvbtc-bbn.png",
     "metadata": {
@@ -286,46 +286,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "pancakeswap-token",
-    "symbol": "cake",
-    "name": "PancakeSwap",
-    "contract_address": "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
-    "local_image": "pancakeswap-token.png",
-    "metadata": {
-      "name": "PancakeSwap",
-      "symbol": "CAKE",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "usual-usd",
-    "symbol": "usd0",
-    "name": "Usual USD",
-    "contract_address": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
-    "local_image": "usual-usd.png",
-    "metadata": {
-      "name": "Usual USD",
-      "symbol": "USD0",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "usdx-money-usdx",
-    "symbol": "usdx",
-    "name": "Stables Labs USDX",
-    "contract_address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
-    "local_image": "usdx-money-usdx.png",
-    "metadata": {
-      "name": "USDX",
-      "symbol": "USDX",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "renzo-restaked-eth",
     "symbol": "ezeth",
     "name": "Renzo Restaked ETH",
@@ -338,20 +299,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "ondo-us-dollar-yield",
-    "symbol": "usdy",
-    "name": "Ondo US Dollar Yield",
-    "contract_address": "0x35e050d3c0ec2d29d269a8ecea763a183bdf9a9d",
-    "local_image": "ondo-us-dollar-yield.png",
+    "extract_time": 1746785649.3923874,
+    "id": "pancakeswap-token",
+    "symbol": "cake",
+    "name": "PancakeSwap",
+    "contract_address": "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
+    "local_image": "pancakeswap-token.png",
     "metadata": {
-      "name": "Ondo US Dollar Yield",
-      "symbol": "USDY",
+      "name": "PancakeSwap",
+      "symbol": "CAKE",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "usual-usd",
+    "symbol": "usd0",
+    "name": "Usual USD",
+    "contract_address": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+    "local_image": "usual-usd.png",
+    "metadata": {
+      "name": "Usual USD",
+      "symbol": "USD0",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "pendle",
     "symbol": "pendle",
     "name": "Pendle",
@@ -364,20 +338,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "telcoin",
-    "symbol": "tel",
-    "name": "Telcoin",
-    "contract_address": "0x0419e8bfbbb2623728c3a6129090da4ff4e48113",
-    "local_image": "telcoin.png",
+    "extract_time": 1746785649.3923874,
+    "id": "usdx-money-usdx",
+    "symbol": "usdx",
+    "name": "Stables Labs USDX",
+    "contract_address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+    "local_image": "usdx-money-usdx.png",
     "metadata": {
-      "name": "Telcoin",
-      "symbol": "TEL",
-      "decimals": 2
+      "name": "USDX",
+      "symbol": "USDX",
+      "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "ondo-us-dollar-yield",
+    "symbol": "usdy",
+    "name": "Ondo US Dollar Yield",
+    "contract_address": "0x35e050d3c0ec2d29d269a8ecea763a183bdf9a9d",
+    "local_image": "ondo-us-dollar-yield.png",
+    "metadata": {
+      "name": "Ondo US Dollar Yield",
+      "symbol": "USDY",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "reserve-rights-token",
     "symbol": "rsr",
     "name": "Reserve Rights",
@@ -390,7 +377,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "telcoin",
+    "symbol": "tel",
+    "name": "Telcoin",
+    "contract_address": "0x0419e8bfbbb2623728c3a6129090da4ff4e48113",
+    "local_image": "telcoin.png",
+    "metadata": {
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "decimals": 2
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "tbtc",
     "symbol": "tbtc",
     "name": "tBTC",
@@ -403,7 +403,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "cgeth-hashkey-cloud",
     "symbol": "cgeth.hashkey",
     "name": "cgETH Hashkey Cloud",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "wormhole",
     "symbol": "w",
     "name": "Wormhole",
@@ -429,7 +429,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "arbitrum-bridged-weth-arbitrum-one",
     "symbol": "weth",
     "name": "Arbitrum Bridged WETH (Arbitrum One)",
@@ -442,7 +442,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "compound-governance-token",
     "symbol": "comp",
     "name": "Compound",
@@ -455,7 +455,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "axelar",
     "symbol": "axl",
     "name": "Axelar",
@@ -468,7 +468,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "olympus",
     "symbol": "ohm",
     "name": "Olympus",
@@ -481,7 +481,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "usdd",
     "symbol": "usdd",
     "name": "USDD",
@@ -494,20 +494,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "frax",
-    "symbol": "frax",
-    "name": "Legacy Frax Dollar",
-    "contract_address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-    "local_image": "frax.png",
-    "metadata": {
-      "name": "Frax",
-      "symbol": "FRAX",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "gnosis",
     "symbol": "gno",
     "name": "Gnosis",
@@ -520,7 +507,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "layerzero",
     "symbol": "zro",
     "name": "LayerZero",
@@ -533,20 +520,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "aethir",
-    "symbol": "ath",
-    "name": "Aethir",
-    "contract_address": "0xc87b37a581ec3257b734886d9d3a581f5a9d056c",
-    "local_image": "aethir.png",
-    "metadata": {
-      "name": "Aethir",
-      "symbol": "ATH",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "coinbase-wrapped-staked-eth",
     "symbol": "cbeth",
     "name": "Coinbase Wrapped Staked ETH",
@@ -559,7 +533,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "frax",
+    "symbol": "frax",
+    "name": "Legacy Frax Dollar",
+    "contract_address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+    "local_image": "frax.png",
+    "metadata": {
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "sweth",
     "symbol": "sweth",
     "name": "Swell Ethereum",
@@ -572,20 +559,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "gho",
-    "symbol": "gho",
-    "name": "GHO",
-    "contract_address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
-    "local_image": "gho.png",
+    "extract_time": 1746785649.3923874,
+    "id": "aethir",
+    "symbol": "ath",
+    "name": "Aethir",
+    "contract_address": "0xc87b37a581ec3257b734886d9d3a581f5a9d056c",
+    "local_image": "aethir.png",
     "metadata": {
-      "name": "Gho Token",
-      "symbol": "GHO",
+      "name": "Aethir",
+      "symbol": "ATH",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "frax-ether",
     "symbol": "frxeth",
     "name": "Frax Ether",
@@ -598,98 +585,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "frax-share",
-    "symbol": "frax",
-    "name": "Frax (prev. FXS)",
-    "contract_address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
-    "local_image": "frax-share.png",
+    "extract_time": 1746785649.3923874,
+    "id": "gho",
+    "symbol": "gho",
+    "name": "GHO",
+    "contract_address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+    "local_image": "gho.png",
     "metadata": {
-      "name": "Frax Share",
-      "symbol": "FXS",
+      "name": "Gho Token",
+      "symbol": "GHO",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "livepeer",
-    "symbol": "lpt",
-    "name": "Livepeer",
-    "contract_address": "0x289ba1701c2f088cf0faf8b3705246331cb8a839",
-    "local_image": "livepeer.png",
-    "metadata": {
-      "name": "Livepeer Token",
-      "symbol": "LPT",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "eutbl",
-    "symbol": "eutbl",
-    "name": "Spiko EU T-Bills Money Market Fund",
-    "contract_address": "0xcbeb19549054cc0a6257a77736fc78c367216ce7",
-    "local_image": "eutbl.png",
-    "metadata": {
-      "name": "Spiko EU T-Bills Money Market Fund",
-      "symbol": "EUTBL",
-      "decimals": 5
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "stargate-finance",
-    "symbol": "stg",
-    "name": "Stargate Finance",
-    "contract_address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
-    "local_image": "stargate-finance.png",
-    "metadata": {
-      "name": "Stargate Finance",
-      "symbol": "STG",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "ankr",
-    "symbol": "ankr",
-    "name": "Ankr Network",
-    "contract_address": "0xaeaeed23478c3a4b798e4ed40d8b7f41366ae861",
-    "local_image": "ankr.png",
-    "metadata": {
-      "name": "Ankr",
-      "symbol": "ANKR",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "yearn-finance",
-    "symbol": "yfi",
-    "name": "yearn.finance",
-    "contract_address": "0x82e3a8f066a6989666b031d916c43672085b1582",
-    "local_image": "yearn-finance.png",
-    "metadata": {
-      "name": "yearn.finance",
-      "symbol": "YFI",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "uxlink",
-    "symbol": "uxlink",
-    "name": "UXLINK",
-    "contract_address": "0x1a6b3a62391eccaaa992ade44cd4afe6bec8cff1",
-    "local_image": "uxlink.png",
-    "metadata": {
-      "name": "UXLINK",
-      "symbol": "UXLINK",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "treehouse-eth",
     "symbol": "teth",
     "name": "Treehouse ETH",
@@ -702,20 +611,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "crvusd",
-    "symbol": "crvusd",
-    "name": "crvUSD",
-    "contract_address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
-    "local_image": "crvusd.png",
+    "extract_time": 1746785649.3923874,
+    "id": "livepeer",
+    "symbol": "lpt",
+    "name": "Livepeer",
+    "contract_address": "0x289ba1701c2f088cf0faf8b3705246331cb8a839",
+    "local_image": "livepeer.png",
     "metadata": {
-      "name": "crvUSD",
-      "symbol": "CRVUSD",
+      "name": "Livepeer Token",
+      "symbol": "LPT",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "frax-share",
+    "symbol": "frax",
+    "name": "Frax (prev. FXS)",
+    "contract_address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
+    "local_image": "frax-share.png",
+    "metadata": {
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "staked-frax-ether",
     "symbol": "sfrxeth",
     "name": "Staked Frax Ether",
@@ -728,7 +650,72 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "stargate-finance",
+    "symbol": "stg",
+    "name": "Stargate Finance",
+    "contract_address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+    "local_image": "stargate-finance.png",
+    "metadata": {
+      "name": "Stargate Finance",
+      "symbol": "STG",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "yearn-finance",
+    "symbol": "yfi",
+    "name": "yearn.finance",
+    "contract_address": "0x82e3a8f066a6989666b031d916c43672085b1582",
+    "local_image": "yearn-finance.png",
+    "metadata": {
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "ankr",
+    "symbol": "ankr",
+    "name": "Ankr Network",
+    "contract_address": "0xaeaeed23478c3a4b798e4ed40d8b7f41366ae861",
+    "local_image": "ankr.png",
+    "metadata": {
+      "name": "Ankr",
+      "symbol": "ANKR",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "eutbl",
+    "symbol": "eutbl",
+    "name": "Spiko EU T-Bills Money Market Fund",
+    "contract_address": "0xcbeb19549054cc0a6257a77736fc78c367216ce7",
+    "local_image": "eutbl.png",
+    "metadata": {
+      "name": "Spiko EU T-Bills Money Market Fund",
+      "symbol": "EUTBL",
+      "decimals": 5
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "uxlink",
+    "symbol": "uxlink",
+    "name": "UXLINK",
+    "contract_address": "0x1a6b3a62391eccaaa992ade44cd4afe6bec8cff1",
+    "local_image": "uxlink.png",
+    "metadata": {
+      "name": "UXLINK",
+      "symbol": "UXLINK",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "instadapp",
     "symbol": "fluid",
     "name": "Fluid",
@@ -741,20 +728,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "subsquid",
-    "symbol": "sqd",
-    "name": "SQD",
-    "contract_address": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
-    "local_image": "subsquid.png",
+    "extract_time": 1746785649.3923874,
+    "id": "crvusd",
+    "symbol": "crvusd",
+    "name": "crvUSD",
+    "contract_address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+    "local_image": "crvusd.png",
     "metadata": {
-      "name": "Subsquid",
-      "symbol": "SQD",
+      "name": "crvUSD",
+      "symbol": "CRVUSD",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "ether-fi",
     "symbol": "ethfi",
     "name": "Ether.fi",
@@ -767,20 +754,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "ignition-fbtc",
-    "symbol": "fbtc",
-    "name": "Function ƒBTC",
-    "contract_address": "0xc96de26018a54d51c097160568752c4e3bd6c364",
-    "local_image": "ignition-fbtc.png",
+    "extract_time": 1746785649.3923874,
+    "id": "subsquid",
+    "symbol": "sqd",
+    "name": "SQD",
+    "contract_address": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
+    "local_image": "subsquid.png",
     "metadata": {
-      "name": "Fire Bitcoin",
-      "symbol": "FBTC",
-      "decimals": 8
+      "name": "Subsquid",
+      "symbol": "SQD",
+      "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "gmx",
     "symbol": "gmx",
     "name": "GMX",
@@ -793,7 +780,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "woo-network",
     "symbol": "woo",
     "name": "WOO",
@@ -806,33 +793,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "loopring",
-    "symbol": "lrc",
-    "name": "Loopring",
-    "contract_address": "0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe",
-    "local_image": "loopring.png",
-    "metadata": {
-      "name": "LoopringCoin V2",
-      "symbol": "LRC",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "sushi",
-    "symbol": "sushi",
-    "name": "Sushi",
-    "contract_address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-    "local_image": "sushi.png",
-    "metadata": {
-      "name": "SushiSwap",
-      "symbol": "SUSHI",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "cow-protocol",
     "symbol": "cow",
     "name": "CoW Protocol",
@@ -845,7 +806,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "ignition-fbtc",
+    "symbol": "fbtc",
+    "name": "Function ƒBTC",
+    "contract_address": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "local_image": "ignition-fbtc.png",
+    "metadata": {
+      "name": "Fire Bitcoin",
+      "symbol": "FBTC",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "sushi",
+    "symbol": "sushi",
+    "name": "Sushi",
+    "contract_address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+    "local_image": "sushi.png",
+    "metadata": {
+      "name": "SushiSwap",
+      "symbol": "SUSHI",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "reserve-protocol-eth-plus",
     "symbol": "eth+",
     "name": "ETHPlus",
@@ -858,7 +845,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "loopring",
+    "symbol": "lrc",
+    "name": "Loopring",
+    "contract_address": "0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe",
+    "local_image": "loopring.png",
+    "metadata": {
+      "name": "LoopringCoin V2",
+      "symbol": "LRC",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "world-mobile-token",
     "symbol": "wmtx",
     "name": "World Mobile Token",
@@ -871,7 +871,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "biconomy",
     "symbol": "bico",
     "name": "Biconomy",
@@ -884,46 +884,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "usd-coin-ethereum-bridged",
-    "symbol": "usdc.e",
-    "name": "Arbitrum Bridged USDC (Arbitrum)",
-    "contract_address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
-    "local_image": "usd-coin-ethereum-bridged.png",
-    "metadata": {
-      "name": "USD Coin Bridged",
-      "symbol": "USDC.e",
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "vicicoin",
-    "symbol": "vcnt",
-    "name": "ViciCoin",
-    "contract_address": "0x60bf4e7cf16ff34513514b968483b54beff42a81",
-    "local_image": "vicicoin.png",
-    "metadata": {
-      "name": "ViciCoin",
-      "symbol": "VCNT",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "lift-dollar",
-    "symbol": "usdl",
-    "name": "Lift Dollar",
-    "contract_address": "0x7f850b0ab1988dd17b69ac564c1e2857949e4dee",
-    "local_image": "lift-dollar.png",
-    "metadata": {
-      "name": "Lift Dollar",
-      "symbol": "USDL",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "osaka-protocol",
     "symbol": "osak",
     "name": "Osaka Protocol",
@@ -936,7 +897,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "anime",
     "symbol": "anime",
     "name": "Animecoin",
@@ -949,7 +910,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "usd-coin-ethereum-bridged",
+    "symbol": "usdc.e",
+    "name": "Arbitrum Bridged USDC (Arbitrum)",
+    "contract_address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "local_image": "usd-coin-ethereum-bridged.png",
+    "metadata": {
+      "name": "USD Coin Bridged",
+      "symbol": "USDC.e",
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -962,20 +936,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "carv",
-    "symbol": "carv",
-    "name": "CARV",
-    "contract_address": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-    "local_image": "carv.png",
+    "extract_time": 1746785649.3923874,
+    "id": "vicicoin",
+    "symbol": "vcnt",
+    "name": "ViciCoin",
+    "contract_address": "0x60bf4e7cf16ff34513514b968483b54beff42a81",
+    "local_image": "vicicoin.png",
     "metadata": {
-      "name": "CARV",
-      "symbol": "CARV",
+      "name": "ViciCoin",
+      "symbol": "VCNT",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "lift-dollar",
+    "symbol": "usdl",
+    "name": "Lift Dollar",
+    "contract_address": "0x7f850b0ab1988dd17b69ac564c1e2857949e4dee",
+    "local_image": "lift-dollar.png",
+    "metadata": {
+      "name": "Lift Dollar",
+      "symbol": "USDL",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "across-protocol",
     "symbol": "acx",
     "name": "Across Protocol",
@@ -988,33 +975,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "orbs",
-    "symbol": "orbs",
-    "name": "Orbs",
-    "contract_address": "0xf3c091ed43de9c270593445163a41a876a0bb3dd",
-    "local_image": "orbs.png",
-    "metadata": {
-      "name": "Orbs",
-      "symbol": "ORBS",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "spell-token",
-    "symbol": "spell",
-    "name": "Spell",
-    "contract_address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
-    "local_image": "spell-token.png",
-    "metadata": {
-      "name": "Spell Token",
-      "symbol": "SPELL",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "rocket-pool",
     "symbol": "rpl",
     "name": "Rocket Pool",
@@ -1027,46 +988,46 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "spiko-us-t-bills-money-market-fund",
-    "symbol": "ustbl",
-    "name": "Spiko US T-Bills Money Market Fund",
-    "contract_address": "0x021289588cd81dc1ac87ea91e91607eef68303f5",
-    "local_image": "spiko-us-t-bills-money-market-fund.png",
+    "extract_time": 1746785649.3923874,
+    "id": "carv",
+    "symbol": "carv",
+    "name": "CARV",
+    "contract_address": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+    "local_image": "carv.png",
     "metadata": {
-      "name": "Spiko US T-Bills Money Market Fund",
-      "symbol": "USTBL",
-      "decimals": 5
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "tokenlon",
-    "symbol": "lon",
-    "name": "Tokenlon",
-    "contract_address": "0x55678cd083fcdc2947a0df635c93c838c89454a3",
-    "local_image": "tokenlon.png",
-    "metadata": {
-      "name": "Tokenlon",
-      "symbol": "LON",
+      "name": "CARV",
+      "symbol": "CARV",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "milk-alliance",
-    "symbol": "mlk",
-    "name": "MiL.k",
-    "contract_address": "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c",
-    "local_image": "milk-alliance.png",
+    "extract_time": 1746785649.3923874,
+    "id": "orbs",
+    "symbol": "orbs",
+    "name": "Orbs",
+    "contract_address": "0xf3c091ed43de9c270593445163a41a876a0bb3dd",
+    "local_image": "orbs.png",
     "metadata": {
-      "name": "MiL.k",
-      "symbol": "MLK",
-      "decimals": 8
+      "name": "Orbs",
+      "symbol": "ORBS",
+      "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "spell-token",
+    "symbol": "spell",
+    "name": "Spell",
+    "contract_address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+    "local_image": "spell-token.png",
+    "metadata": {
+      "name": "Spell Token",
+      "symbol": "SPELL",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "tellor",
     "symbol": "trb",
     "name": "Tellor Tributes",
@@ -1079,33 +1040,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "marlin",
-    "symbol": "pond",
-    "name": "Marlin",
-    "contract_address": "0xda0a57b710768ae17941a9fa33f8b720c8bd9ddd",
-    "local_image": "marlin.png",
-    "metadata": {
-      "name": "Marlin",
-      "symbol": "POND",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "joe",
-    "symbol": "joe",
-    "name": "JOE",
-    "contract_address": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
-    "local_image": "joe.png",
-    "metadata": {
-      "name": "JoeToken",
-      "symbol": "JOE",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "degen-base",
     "symbol": "degen",
     "name": "Degen",
@@ -1118,20 +1053,59 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "balancer",
-    "symbol": "bal",
-    "name": "Balancer",
-    "contract_address": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
-    "local_image": "balancer.png",
+    "extract_time": 1746785649.3923874,
+    "id": "tokenlon",
+    "symbol": "lon",
+    "name": "Tokenlon",
+    "contract_address": "0x55678cd083fcdc2947a0df635c93c838c89454a3",
+    "local_image": "tokenlon.png",
     "metadata": {
-      "name": "Balancer",
-      "symbol": "BAL",
+      "name": "Tokenlon",
+      "symbol": "LON",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "marlin",
+    "symbol": "pond",
+    "name": "Marlin",
+    "contract_address": "0xda0a57b710768ae17941a9fa33f8b720c8bd9ddd",
+    "local_image": "marlin.png",
+    "metadata": {
+      "name": "Marlin",
+      "symbol": "POND",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "joe",
+    "symbol": "joe",
+    "name": "JOE",
+    "contract_address": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+    "local_image": "joe.png",
+    "metadata": {
+      "name": "JoeToken",
+      "symbol": "JOE",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "spiko-us-t-bills-money-market-fund",
+    "symbol": "ustbl",
+    "name": "Spiko US T-Bills Money Market Fund",
+    "contract_address": "0x021289588cd81dc1ac87ea91e91607eef68303f5",
+    "local_image": "spiko-us-t-bills-money-market-fund.png",
+    "metadata": {
+      "name": "Spiko US T-Bills Money Market Fund",
+      "symbol": "USTBL",
+      "decimals": 5
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "liquity",
     "symbol": "lqty",
     "name": "Liquity",
@@ -1144,7 +1118,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "milk-alliance",
+    "symbol": "mlk",
+    "name": "MiL.k",
+    "contract_address": "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c",
+    "local_image": "milk-alliance.png",
+    "metadata": {
+      "name": "MiL.k",
+      "symbol": "MLK",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "heyanon",
     "symbol": "anon",
     "name": "Hey Anon",
@@ -1157,33 +1144,33 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "dola-usd",
-    "symbol": "dola",
-    "name": "DOLA",
-    "contract_address": "0x6a7661795c374c0bfc635934efaddff3a7ee23b6",
-    "local_image": "dola-usd.png",
+    "extract_time": 1746785649.3923874,
+    "id": "apex-token-2",
+    "symbol": "apex",
+    "name": "ApeX",
+    "contract_address": "0x61a1ff55c5216b636a294a07d77c6f4df10d3b56",
+    "local_image": "apex-token-2.png",
     "metadata": {
-      "name": "DOLA",
-      "symbol": "DOLA",
+      "name": "ApeX Protocol",
+      "symbol": "APEX",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "staked-frax",
-    "symbol": "sfrax",
-    "name": "Staked FRAX",
-    "contract_address": "0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
-    "local_image": "staked-frax.png",
+    "extract_time": 1746785649.3923874,
+    "id": "balancer",
+    "symbol": "bal",
+    "name": "Balancer",
+    "contract_address": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+    "local_image": "balancer.png",
     "metadata": {
-      "name": "Staked FRAX",
-      "symbol": "sFRAX",
+      "name": "Balancer",
+      "symbol": "BAL",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "xai-blockchain",
     "symbol": "xai",
     "name": "Xai",
@@ -1196,7 +1183,7 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "kyber-network-crystal",
     "symbol": "knc",
     "name": "Kyber Network Crystal",
@@ -1209,7 +1196,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
+    "id": "dola-usd",
+    "symbol": "dola",
+    "name": "DOLA",
+    "contract_address": "0x6a7661795c374c0bfc635934efaddff3a7ee23b6",
+    "local_image": "dola-usd.png",
+    "metadata": {
+      "name": "DOLA",
+      "symbol": "DOLA",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
     "id": "cartesi",
     "symbol": "ctsi",
     "name": "Cartesi",
@@ -1222,59 +1222,20 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "cortex-2",
-    "symbol": "cx",
-    "name": "Cortex",
-    "contract_address": "0x000000000000012def132e61759048be5b5c6033",
-    "local_image": "cortex-2.png",
+    "extract_time": 1746785649.3923874,
+    "id": "staked-frax",
+    "symbol": "sfrax",
+    "name": "Staked FRAX",
+    "contract_address": "0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+    "local_image": "staked-frax.png",
     "metadata": {
-      "name": "Cortex",
-      "symbol": "CX",
+      "name": "Staked FRAX",
+      "symbol": "sFRAX",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "magic",
-    "symbol": "magic",
-    "name": "Treasure",
-    "contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
-    "local_image": "magic.png",
-    "metadata": {
-      "name": "Treasure",
-      "symbol": "MAGIC",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "synapse-2",
-    "symbol": "syn",
-    "name": "Synapse",
-    "contract_address": "0x080f6aed32fc474dd5717105dba5ea57268f46eb",
-    "local_image": "synapse-2.png",
-    "metadata": {
-      "name": "Synapse",
-      "symbol": "SYN",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
-    "id": "escoin-token",
-    "symbol": "elg",
-    "name": "Escoin",
-    "contract_address": "0x89d59a38eb2a91df58a709bb249bf1d13ad11037",
-    "local_image": "escoin-token.png",
-    "metadata": {
-      "name": "EscoinToken",
-      "symbol": "ELG",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1746699299.9363155,
+    "extract_time": 1746785649.3923874,
     "id": "celer-network",
     "symbol": "celr",
     "name": "Celer Network",
@@ -1287,15 +1248,54 @@
     }
   },
   {
-    "extract_time": 1746699299.9363155,
-    "id": "autonomi",
-    "symbol": "ant",
-    "name": "Autonomi",
-    "contract_address": "0xa78d8321b20c4ef90ecd72f2588aa985a4bdb684",
-    "local_image": "autonomi.png",
+    "extract_time": 1746785649.3923874,
+    "id": "magic",
+    "symbol": "magic",
+    "name": "Treasure",
+    "contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+    "local_image": "magic.png",
     "metadata": {
-      "name": "Autonomi",
-      "symbol": "ANT",
+      "name": "Treasure",
+      "symbol": "MAGIC",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "axondao-governance-token",
+    "symbol": "axgt",
+    "name": "AxonDAO Governance Token",
+    "contract_address": "0xe0ee18eacafddaeb38f8907c74347c44385578ab",
+    "local_image": "axondao-governance-token.png",
+    "metadata": {
+      "name": "AxonDAO Governance Token",
+      "symbol": "AXGT",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "synapse-2",
+    "symbol": "syn",
+    "name": "Synapse",
+    "contract_address": "0x080f6aed32fc474dd5717105dba5ea57268f46eb",
+    "local_image": "synapse-2.png",
+    "metadata": {
+      "name": "Synapse",
+      "symbol": "SYN",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1746785649.3923874,
+    "id": "cortex-2",
+    "symbol": "cx",
+    "name": "Cortex",
+    "contract_address": "0x000000000000012def132e61759048be5b5c6033",
+    "local_image": "cortex-2.png",
+    "metadata": {
+      "name": "Cortex",
+      "symbol": "CX",
       "decimals": 18
     }
   }
