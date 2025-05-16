@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "abe-cto",
     "symbol": "abe",
     "name": "ABE CTO",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "unicorn-4",
     "symbol": "unicorn",
     "name": "Unicorn",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "wild-goat-coin-2",
     "symbol": "wgc",
     "name": "Wild Goat Coin",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "hooffather",
     "symbol": "hoof",
     "name": "Hooffather",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
     "id": "hoonicorn-lol",
     "symbol": "hooni",
     "name": "hoonicorn.lol",
@@ -130,7 +130,33 @@
     }
   },
   {
-    "extract_time": 1747306667.533889,
+    "extract_time": 1747390462.9176264,
+    "id": "kraken-wrapped-btc",
+    "symbol": "kbtc",
+    "name": "Kraken Wrapped BTC",
+    "contract_address": "0x73e0c0d45e048d25fc26fa3159b0aa04bfa4db98",
+    "local_image": "kraken-wrapped-btc.png",
+    "metadata": {
+      "name": "Kraken Wrapped Bitcoin",
+      "symbol": "kBTC",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1747390462.9176264,
+    "id": "everclear-bridged-ezeth",
+    "symbol": "ezeth",
+    "name": "Renzo Restaked ETH",
+    "contract_address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "local_image": "everclear-bridged-ezeth.png",
+    "metadata": {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1747390462.9176264,
     "id": "unichain-bridged-weth-unichain",
     "symbol": "weth",
     "name": "Unichain Bridged WETH (Unichain)",
