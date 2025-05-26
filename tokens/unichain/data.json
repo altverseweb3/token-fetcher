@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "abe-cto",
     "symbol": "abe",
     "name": "ABE CTO",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "wild-goat-coin-2",
     "symbol": "wgc",
     "name": "Wild Goat Coin",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "unicorn-4",
     "symbol": "unicorn",
     "name": "Unicorn",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "hoonicorn-lol",
     "symbol": "hooni",
     "name": "hoonicorn.lol",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
+    "extract_time": 1748254688.1504817,
     "id": "hooffather",
     "symbol": "hoof",
     "name": "Hooffather",
@@ -130,16 +130,29 @@
     }
   },
   {
-    "extract_time": 1748167941.7588573,
-    "id": "openusdt",
-    "symbol": "ousdt",
-    "name": "OpenUSDT",
-    "contract_address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
-    "local_image": "openusdt.png",
+    "extract_time": 1748254688.1504817,
+    "id": "everclear-bridged-ezeth",
+    "symbol": "ezeth",
+    "name": "Renzo Restaked ETH",
+    "contract_address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "local_image": "everclear-bridged-ezeth.png",
     "metadata": {
-      "name": "OpenUSDT",
-      "symbol": "oUSDT",
-      "decimals": 6
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1748254688.1504817,
+    "id": "unichain-bridged-weth-unichain",
+    "symbol": "weth",
+    "name": "Unichain Bridged WETH (Unichain)",
+    "contract_address": "0x4200000000000000000000000000000000000006",
+    "local_image": "unichain-bridged-weth-unichain.png",
+    "metadata": {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
     }
   }
 ]
