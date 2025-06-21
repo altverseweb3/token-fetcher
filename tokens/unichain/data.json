@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "renzo-restaked-eth",
     "symbol": "ezeth",
     "name": "Renzo Restaked ETH",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "abe-cto",
     "symbol": "abe",
     "name": "ABE CTO",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "unichain-bridged-usdt-unichain",
     "symbol": "usdt",
     "name": "Unichain Bridged USDT (Unichain)",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "unicorn-4",
     "symbol": "unicorn",
     "name": "Unicorn",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "hoonicorn-lol",
     "symbol": "hooni",
     "name": "hoonicorn.lol",
@@ -130,33 +130,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
-    "id": "openusdt",
-    "symbol": "ousdt",
-    "name": "OpenUSDT",
-    "contract_address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
-    "local_image": "openusdt.png",
-    "metadata": {
-      "name": "OpenUSDT",
-      "symbol": "oUSDT",
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1750414460.622376,
-    "id": "unichain-bridged-weth-unichain",
-    "symbol": "weth",
-    "name": "Unichain Bridged WETH (Unichain)",
-    "contract_address": "0x4200000000000000000000000000000000000006",
-    "local_image": "unichain-bridged-weth-unichain.png",
-    "metadata": {
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "unichain-bridged-wbtc-unichain-2",
     "symbol": "wbtc",
     "name": "Unichain Bridged WBTC (Unichain)",
@@ -169,7 +143,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "kraken-wrapped-btc",
     "symbol": "kbtc",
     "name": "Kraken Wrapped BTC",
@@ -182,7 +156,7 @@
     }
   },
   {
-    "extract_time": 1750414460.622376,
+    "extract_time": 1750500780.953604,
     "id": "hooffather",
     "symbol": "hoof",
     "name": "Hooffather",
@@ -192,6 +166,32 @@
       "name": "Hooffather",
       "symbol": "HOOF",
       "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1750500780.953604,
+    "id": "etherfi-bridged-weeth-unichain",
+    "symbol": "weeth",
+    "name": "Ether.fi Bridged weETH (Unichain)",
+    "contract_address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+    "local_image": "etherfi-bridged-weeth-unichain.png",
+    "metadata": {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1750500780.953604,
+    "id": "openusdt",
+    "symbol": "ousdt",
+    "name": "OpenUSDT",
+    "contract_address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "local_image": "openusdt.png",
+    "metadata": {
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6
     }
   }
 ]
