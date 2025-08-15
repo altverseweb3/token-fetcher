@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "renzo-restaked-eth",
     "symbol": "ezeth",
     "name": "Renzo Restaked ETH",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "euler",
     "symbol": "eul",
     "name": "Euler",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "reservoir-rusd",
     "symbol": "rusd",
     "name": "Reservoir rUSD",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "kelpdao-bridged-rseth-unichain",
     "symbol": "rseth",
     "name": "KelpDAO Bridged rsETH (Unichain)",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "wrapped-savings-rusd",
     "symbol": "wsrusd",
     "name": "Wrapped Savings rUSD",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "kraken-wrapped-btc",
     "symbol": "kbtc",
     "name": "Kraken Wrapped BTC",
@@ -143,98 +143,7 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
-    "id": "abe-cto",
-    "symbol": "abe",
-    "name": "ABE CTO",
-    "contract_address": "0xd4390b4a41a1057ae0acdd4b9435a0c7555ab464",
-    "local_image": "abe-cto.png",
-    "metadata": {
-      "name": "ABE",
-      "symbol": "ABE",
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "unicorn-4",
-    "symbol": "unicorn",
-    "name": "Unicorn",
-    "contract_address": "0x926dc7b96bb2f4a91c2a67e291faf482691a3001",
-    "local_image": "unicorn-4.png",
-    "metadata": {
-      "name": "UNICORN",
-      "symbol": "UNICORN",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "catex-2",
-    "symbol": "catx",
-    "name": "Catex",
-    "contract_address": "0x756ee6857f915a2b5366f2ef56d8d13857aef8ad",
-    "local_image": "catex-2.png",
-    "metadata": {
-      "name": "Catex",
-      "symbol": "CATX",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "unichain-bridged-usdt-unichain",
-    "symbol": "usdt",
-    "name": "Unichain Bridged USDT (Unichain)",
-    "contract_address": "0x588ce4f028d8e7b53b687865d6a67b3a54c75518",
-    "local_image": "unichain-bridged-usdt-unichain.png",
-    "metadata": {
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "hoonicorn-lol",
-    "symbol": "hooni",
-    "name": "hoonicorn.lol",
-    "contract_address": "0xec4a56061d86955d0df883efb2e5791d99ea71f2",
-    "local_image": "hoonicorn-lol.png",
-    "metadata": {
-      "name": "hoonicorn.lol",
-      "symbol": "HOONI",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "etherfi-bridged-weeth-unichain",
-    "symbol": "weeth",
-    "name": "Ether.fi Bridged weETH (Unichain)",
-    "contract_address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
-    "local_image": "etherfi-bridged-weeth-unichain.png",
-    "metadata": {
-      "name": "Wrapped eETH",
-      "symbol": "weETH",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
-    "id": "hooffather",
-    "symbol": "hoof",
-    "name": "Hooffather",
-    "contract_address": "0x849f05f7cfdc4215b16a3c5a58361445c4d56c8e",
-    "local_image": "hooffather.png",
-    "metadata": {
-      "name": "Hooffather",
-      "symbol": "HOOF",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1755166535.3526895,
+    "extract_time": 1755252875.1985784,
     "id": "openusdt",
     "symbol": "ousdt",
     "name": "OpenUSDT",
@@ -247,42 +156,94 @@
     }
   },
   {
-    "extract_time": 1755166535.3526895,
-    "id": "unichain-bridged-wbtc-unichain-2",
-    "symbol": "wbtc",
-    "name": "Unichain Bridged WBTC (Unichain)",
-    "contract_address": "0x927b51f251480a681271180da4de28d44ec4afb8",
-    "local_image": "unichain-bridged-wbtc-unichain-2.png",
+    "extract_time": 1755252875.1985784,
+    "id": "abe-cto",
+    "symbol": "abe",
+    "name": "ABE CTO",
+    "contract_address": "0xd4390b4a41a1057ae0acdd4b9435a0c7555ab464",
+    "local_image": "abe-cto.png",
     "metadata": {
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
+      "name": "ABE",
+      "symbol": "ABE",
+      "decimals": 9
     }
   },
   {
-    "extract_time": 1755166535.3526895,
-    "id": "unichain-bridged-weth-unichain",
-    "symbol": "weth",
-    "name": "Unichain Bridged WETH (Unichain)",
-    "contract_address": "0x4200000000000000000000000000000000000006",
-    "local_image": "unichain-bridged-weth-unichain.png",
+    "extract_time": 1755252875.1985784,
+    "id": "unicorn-4",
+    "symbol": "unicorn",
+    "name": "Unicorn",
+    "contract_address": "0x926dc7b96bb2f4a91c2a67e291faf482691a3001",
+    "local_image": "unicorn-4.png",
     "metadata": {
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
+      "name": "UNICORN",
+      "symbol": "UNICORN",
       "decimals": 18
     }
   },
   {
-    "extract_time": 1755166535.3526895,
-    "id": "unichain-bridged-wbtc-unichain",
-    "symbol": "wbtc",
-    "name": "LayerZero Bridged WBTC (Unichain)",
-    "contract_address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
-    "local_image": "unichain-bridged-wbtc-unichain.png",
+    "extract_time": 1755252875.1985784,
+    "id": "unichain-bridged-usdt-unichain",
+    "symbol": "usdt",
+    "name": "Unichain Bridged USDT (Unichain)",
+    "contract_address": "0x588ce4f028d8e7b53b687865d6a67b3a54c75518",
+    "local_image": "unichain-bridged-usdt-unichain.png",
     "metadata": {
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1755252875.1985784,
+    "id": "catex-2",
+    "symbol": "catx",
+    "name": "Catex",
+    "contract_address": "0x756ee6857f915a2b5366f2ef56d8d13857aef8ad",
+    "local_image": "catex-2.png",
+    "metadata": {
+      "name": "Catex",
+      "symbol": "CATX",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1755252875.1985784,
+    "id": "hoonicorn-lol",
+    "symbol": "hooni",
+    "name": "hoonicorn.lol",
+    "contract_address": "0xec4a56061d86955d0df883efb2e5791d99ea71f2",
+    "local_image": "hoonicorn-lol.png",
+    "metadata": {
+      "name": "hoonicorn.lol",
+      "symbol": "HOONI",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1755252875.1985784,
+    "id": "etherfi-bridged-weeth-unichain",
+    "symbol": "weeth",
+    "name": "Ether.fi Bridged weETH (Unichain)",
+    "contract_address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+    "local_image": "etherfi-bridged-weeth-unichain.png",
+    "metadata": {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1755252875.1985784,
+    "id": "hooffather",
+    "symbol": "hoof",
+    "name": "Hooffather",
+    "contract_address": "0x849f05f7cfdc4215b16a3c5a58361445c4d56c8e",
+    "local_image": "hooffather.png",
+    "metadata": {
+      "name": "Hooffather",
+      "symbol": "HOOF",
+      "decimals": 18
     }
   }
 ]
