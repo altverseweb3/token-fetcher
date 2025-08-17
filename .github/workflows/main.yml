@@ -48,6 +48,21 @@ jobs:
       - name: Wait for GitHub synchronization
         run: sleep 10s
 
-      - name: Trigger Vercel Deployment
+      - name: Trigger Vercel Deployment with Retry
         run: |
-          curl -X POST "$VERCEL_DEPLOY_HOOK_URL"
+          max_attempts=5
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            if curl -X POST "$VERCEL_DEPLOY_HOOK_URL"; then
+              echo "Vercel deployment triggered successfully"
+              break
+            else
+              if [ $attempt -eq $max_attempts ]; then
+                echo "Failed to trigger Vercel deployment after $max_attempts attempts"
+                exit 1
+              fi
+              echo "Attempt $attempt failed, retrying in 30 seconds..."
+              sleep 30
+              attempt=$((attempt + 1))
+            fi
+          done
