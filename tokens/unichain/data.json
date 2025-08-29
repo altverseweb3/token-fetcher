@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "wrapped-steth",
     "symbol": "wsteth",
     "name": "Wrapped stETH",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "uniswap",
     "symbol": "uni",
     "name": "Uniswap",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "usdt0",
     "symbol": "usdt0",
     "name": "USDT0",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "bonk",
     "symbol": "bonk",
     "name": "Bonk",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "jupiter-exchange-solana",
     "symbol": "jup",
     "name": "Jupiter",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "renzo-restaked-eth",
     "symbol": "ezeth",
     "name": "Renzo Restaked ETH",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "dogwifcoin",
     "symbol": "wif",
     "name": "dogwifhat",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "euler",
     "symbol": "eul",
     "name": "Euler",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "venus",
     "symbol": "xvs",
     "name": "Venus",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "reservoir-rusd",
     "symbol": "rusd",
     "name": "Reservoir rUSD",
@@ -143,7 +143,20 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
+    "id": "frax-usd",
+    "symbol": "frxusd",
+    "name": "Frax USD",
+    "contract_address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "local_image": "frax-usd.png",
+    "metadata": {
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
     "id": "kelpdao-bridged-rseth-unichain",
     "symbol": "rseth",
     "name": "KelpDAO Bridged rsETH (Unichain)",
@@ -156,7 +169,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "wrapped-savings-rusd",
     "symbol": "wsrusd",
     "name": "Wrapped Savings rUSD",
@@ -169,7 +182,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "kraken-wrapped-btc",
     "symbol": "kbtc",
     "name": "Kraken Wrapped BTC",
@@ -182,7 +195,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "openusdt",
     "symbol": "ousdt",
     "name": "OpenUSDT",
@@ -195,7 +208,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "abe-2",
     "symbol": "abe",
     "name": "Abe",
@@ -208,33 +221,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
-    "id": "unicorn-4",
-    "symbol": "unicorn",
-    "name": "Unicorn",
-    "contract_address": "0x926dc7b96bb2f4a91c2a67e291faf482691a3001",
-    "local_image": "unicorn-4.png",
-    "metadata": {
-      "name": "UNICORN",
-      "symbol": "UNICORN",
-      "decimals": 18
-    }
-  },
-  {
-    "extract_time": 1756376035.0136795,
-    "id": "abe-cto",
-    "symbol": "abe",
-    "name": "ABE CTO",
-    "contract_address": "0xd4390b4a41a1057ae0acdd4b9435a0c7555ab464",
-    "local_image": "abe-cto.png",
-    "metadata": {
-      "name": "ABE",
-      "symbol": "ABE",
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "unichain-bridged-usdt-unichain",
     "symbol": "usdt",
     "name": "Unichain Bridged USDT (Unichain)",
@@ -247,7 +234,33 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
+    "id": "unicorn-4",
+    "symbol": "unicorn",
+    "name": "Unicorn",
+    "contract_address": "0x926dc7b96bb2f4a91c2a67e291faf482691a3001",
+    "local_image": "unicorn-4.png",
+    "metadata": {
+      "name": "UNICORN",
+      "symbol": "UNICORN",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "abe-cto",
+    "symbol": "abe",
+    "name": "ABE CTO",
+    "contract_address": "0xd4390b4a41a1057ae0acdd4b9435a0c7555ab464",
+    "local_image": "abe-cto.png",
+    "metadata": {
+      "name": "ABE",
+      "symbol": "ABE",
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
     "id": "hoonicorn-lol",
     "symbol": "hooni",
     "name": "hoonicorn.lol",
@@ -260,7 +273,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "catex-2",
     "symbol": "catx",
     "name": "Catex",
@@ -273,7 +286,7 @@
     }
   },
   {
-    "extract_time": 1756376035.0136795,
+    "extract_time": 1756462423.2138395,
     "id": "wormhole-bridged-hype",
     "symbol": "hype",
     "name": "Wormhole Bridged HYPE",
@@ -283,6 +296,84 @@
       "name": "HYPE",
       "symbol": "HYPE",
       "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "etherfi-bridged-weeth-unichain",
+    "symbol": "weeth",
+    "name": "Ether.fi Bridged weETH (Unichain)",
+    "contract_address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+    "local_image": "etherfi-bridged-weeth-unichain.png",
+    "metadata": {
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "hooffather",
+    "symbol": "hoof",
+    "name": "Hooffather",
+    "contract_address": "0x849f05f7cfdc4215b16a3c5a58361445c4d56c8e",
+    "local_image": "hooffather.png",
+    "metadata": {
+      "name": "Hooffather",
+      "symbol": "HOOF",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "unichain-bridged-wbtc-unichain-2",
+    "symbol": "wbtc",
+    "name": "Unichain Bridged WBTC (Unichain)",
+    "contract_address": "0x927b51f251480a681271180da4de28d44ec4afb8",
+    "local_image": "unichain-bridged-wbtc-unichain-2.png",
+    "metadata": {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "unichain-bridged-weth-unichain",
+    "symbol": "weth",
+    "name": "Unichain Bridged WETH (Unichain)",
+    "contract_address": "0x4200000000000000000000000000000000000006",
+    "local_image": "unichain-bridged-weth-unichain.png",
+    "metadata": {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "unichain-bridged-wbtc-unichain",
+    "symbol": "wbtc",
+    "name": "LayerZero Bridged WBTC (Unichain)",
+    "contract_address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "local_image": "unichain-bridged-wbtc-unichain.png",
+    "metadata": {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1756462423.2138395,
+    "id": "sol-wormhole",
+    "symbol": "wsol",
+    "name": "Wormhole Bridged WSOL",
+    "contract_address": "0xbde8a5331e8ac4831cf8ea9e42e229219eafab97",
+    "local_image": "sol-wormhole.png",
+    "metadata": {
+      "name": "Wrapped SOL",
+      "symbol": "SOL",
+      "decimals": 9
     }
   }
 ]
