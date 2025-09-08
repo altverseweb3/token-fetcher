@@ -1,15 +1,22 @@
 [
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
     "contract_address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
     "local_image": "usd-coin.png",
-    "metadata": {}
+    "metadata": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "description": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+      "iconUrl": "https://circle.com/usdc-icon",
+      "id": "0x69b7a7c3c200439c1b5f3b19d7d495d5966d5f08de66c69276152f8db3992ec6"
+    }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sui",
     "symbol": "sui",
     "name": "Sui",
@@ -25,7 +32,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "lombard-staked-btc",
     "symbol": "lbtc",
     "name": "Lombard Staked BTC",
@@ -41,7 +48,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "first-digital-usd",
     "symbol": "fdusd",
     "name": "First Digital USD",
@@ -57,7 +64,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "ondo-us-dollar-yield",
     "symbol": "usdy",
     "name": "Ondo US Dollar Yield",
@@ -73,7 +80,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "tbtc",
     "symbol": "tbtc",
     "name": "tBTC",
@@ -89,7 +96,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "walrus-2",
     "symbol": "wal",
     "name": "Walrus",
@@ -105,7 +112,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "deep",
     "symbol": "deep",
     "name": "DeepBook",
@@ -121,7 +128,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "agora-dollar",
     "symbol": "ausd",
     "name": "AUSD",
@@ -137,7 +144,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sui-bridged-wbtc-sui",
     "symbol": "wbtc",
     "name": "Sui Bridged WBTC (Sui)",
@@ -153,16 +160,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "ika",
     "symbol": "ika",
     "name": "Ika",
     "contract_address": "0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA",
     "local_image": "ika.png",
-    "metadata": {}
+    "metadata": {
+      "name": "IKA Token",
+      "symbol": "IKA",
+      "decimals": 9,
+      "description": "Ika Protocol.",
+      "iconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiIGZpbGw9Im5vbmUiPiA8cmVjdCB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjRUUyQjVCIi8+IDxwYXRoIGQ9Ik02NzguNzQyIDU4OC45MzRWNDEwLjQ2N0M2NzguNzQyIDMxMS45MDIgNTk4Ljg0IDIzMiA1MDAuMjc1IDIzMlYyMzJDNDAxLjcxIDIzMiAzMjEuODA4IDMxMS45MDIgMzIxLjgwOCA0MTAuNDY3VjU4OC45MzQiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNTcuMzIyOCIvPiA8cGF0aCBkPSJNNjc4Ljc0OCA1MjkuNDQxTDY3OC43NDggNTk4Ljg0NUM2NzguNzQ4IDYzNy4xNzYgNzA5LjgyMiA2NjguMjQ5IDc0OC4xNTIgNjY4LjI0OVY2NjguMjQ5Qzc4Ni40ODMgNjY4LjI0OSA4MTcuNTU2IDYzNy4xNzYgODE3LjU1NiA1OTguODQ1TDgxNy41NTYgNTI5LjQ0MSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSI1Ny4zMjI4Ii8+IDxwYXRoIGQ9Ik01NzMuNDkxIDc2OC45MThMNTczLjQ5MSA2NjMuMTU5QzU3My40OTEgNjIyLjcyMyA1NDAuNzExIDU4OS45NDIgNTAwLjI3NCA1ODkuOTQyVjU4OS45NDJDNDU5LjgzNyA1ODkuOTQyIDQyNy4wNTYgNjIyLjcyMyA0MjcuMDU2IDY2My4xNTlMNDI3LjA1NiA3NjguOTE4IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjU3LjMyMjgiLz4gPHBhdGggZD0iTTE4MyA1MjkuNDQxTDE4MyA1OTguODQ1QzE4MyA2MzcuMTc2IDIxNC4wNzMgNjY4LjI0OSAyNTIuNDA0IDY2OC4yNDlWNjY4LjI0OUMyOTAuNzM1IDY2OC4yNDkgMzIxLjgwOCA2MzcuMTc2IDMyMS44MDggNTk4Ljg0NUwzMjEuODA4IDUyOS40NDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNTcuMzIyOCIvPiA8cGF0aCBkPSJNNTAwLjI3MiAzNzAuNzk4QzUzMy4xMjcgMzcwLjc5OCA1NTkuNzYxIDM5Ny40MzMgNTU5Ljc2MSA0MzAuMjg4QzU1OS43NjEgNDYzLjE0MiA1MzMuMTI3IDQ4OS43NzcgNTAwLjI3MiA0ODkuNzc3QzQ5NC4xNzQgNDg5Ljc3NyA0ODguMjkgNDg4Ljg1OCA0ODIuNzUxIDQ4Ny4xNTNDNDkzLjA4MiA0ODIuNDkgNTAwLjI3MiA0NzIuMSA1MDAuMjcyIDQ2MC4wMjlDNTAwLjI3MiA0NDMuNjAyIDQ4Ni45NTUgNDMwLjI4NSA0NzAuNTI4IDQzMC4yODVDNDU4LjQ1OCA0MzAuMjg1IDQ0OC4wNjcgNDM3LjQ3MyA0NDMuNDA0IDQ0Ny44MDJDNDQxLjcwMSA0NDIuMjY1IDQ0MC43ODMgNDM2LjM4MyA0NDAuNzgzIDQzMC4yODhDNDQwLjc4MyAzOTcuNDMzIDQ2Ny40MTcgMzcwLjc5OCA1MDAuMjcyIDM3MC43OThaIiBmaWxsPSJ3aGl0ZSIvPiA8L3N2Zz4=",
+      "id": "0xe9ea4723d69d1f399e88b8d890e128813eb30dc40bc012a9aca7f300332c0347"
+    }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "lorenzo-stbtc",
     "symbol": "stbtc",
     "name": "Lorenzo stBTC",
@@ -178,39 +192,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "lorenzo-wrapped-bitcoin",
-    "symbol": "enzobtc",
-    "name": "Lorenzo Wrapped Bitcoin",
-    "contract_address": "0x8f2b5eb696ed88b71fea398d330bccfa52f6e2a5a8e1ac6180fcb25c6de42ebc::coin::COIN",
-    "local_image": "lorenzo-wrapped-bitcoin.png",
-    "metadata": {
-      "name": "Lorenzo Wrapped Bitcoin",
-      "symbol": "enzoBTC",
-      "decimals": 8,
-      "description": "",
-      "iconUrl": null,
-      "id": "0x0c830e5d9be6e871492de1b98cb4a6bc385f3852f7d8f1d5c15b8cf094b0885b"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
-    "id": "cetus-protocol",
-    "symbol": "cetus",
-    "name": "Cetus Protocol",
-    "contract_address": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
-    "local_image": "cetus-protocol.png",
-    "metadata": {
-      "name": "Cetus Token",
-      "symbol": "CETUS",
-      "decimals": 9,
-      "description": "CETUS is the native token of Cetus Protocol.",
-      "iconUrl": "https://uxcdefo3r2uemooidt2kk2stykakvwd2m6nasg5lhbfaxemm4i3a.arweave.net/pcQyFduOqEY5yBz0pWpTwoCq2HpnmgkbqzhKC5GM4jY",
-      "id": "0x4c0dce55eff2db5419bbd2d239d1aa22b4a400c01bbb648b058a9883989025da"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sui-bridged-usdt-sui",
     "symbol": "sbusdt",
     "name": "Sui Bridged USDT (Sui)",
@@ -226,7 +208,39 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "lorenzo-wrapped-bitcoin",
+    "symbol": "enzobtc",
+    "name": "Lorenzo Wrapped Bitcoin",
+    "contract_address": "0x8f2b5eb696ed88b71fea398d330bccfa52f6e2a5a8e1ac6180fcb25c6de42ebc::coin::COIN",
+    "local_image": "lorenzo-wrapped-bitcoin.png",
+    "metadata": {
+      "name": "Lorenzo Wrapped Bitcoin",
+      "symbol": "enzoBTC",
+      "decimals": 8,
+      "description": "",
+      "iconUrl": null,
+      "id": "0x0c830e5d9be6e871492de1b98cb4a6bc385f3852f7d8f1d5c15b8cf094b0885b"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "cetus-protocol",
+    "symbol": "cetus",
+    "name": "Cetus Protocol",
+    "contract_address": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+    "local_image": "cetus-protocol.png",
+    "metadata": {
+      "name": "Cetus Token",
+      "symbol": "CETUS",
+      "decimals": 9,
+      "description": "CETUS is the native token of Cetus Protocol.",
+      "iconUrl": "https://uxcdefo3r2uemooidt2kk2stykakvwd2m6nasg5lhbfaxemm4i3a.arweave.net/pcQyFduOqEY5yBz0pWpTwoCq2HpnmgkbqzhKC5GM4jY",
+      "id": "0x4c0dce55eff2db5419bbd2d239d1aa22b4a400c01bbb648b058a9883989025da"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "sui-bridged-ether-sui",
     "symbol": "sbeth",
     "name": "Sui Bridged Ether (Sui)",
@@ -242,7 +256,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "bucket-protocol-buck-stablecoin",
     "symbol": "buck",
     "name": "Bucket Protocol BUCK Stablecoin",
@@ -258,7 +272,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "matrixdock-gold",
     "symbol": "xaum",
     "name": "Matrixdock Gold",
@@ -274,7 +288,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suilend",
     "symbol": "send",
     "name": "Suilend",
@@ -290,7 +304,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "spring-staked-sui",
     "symbol": "ssui",
     "name": "Spring Staked SUI",
@@ -306,64 +320,41 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "haedal",
     "symbol": "haedal",
     "name": "Haedal Protocol",
     "contract_address": "0x3a304c7feba2d819ea57c3542d68439ca2c386ba02159c740f7b406e592c62ea::haedal::HAEDAL",
     "local_image": "haedal.png",
-    "metadata": {
-      "name": "Haedal",
-      "symbol": "HAEDAL",
-      "decimals": 9,
-      "description": "",
-      "iconUrl": "https://node1.irys.xyz/Rp80fmqZS3qBDnfyxyKEvc65nVdTunjOG3NY8T6AjpI",
-      "id": "0xcc89fcc22f0d13de3688b94fa16d64a22079186a941914280c67101ff754263c"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "overtake",
     "symbol": "take",
     "name": "OVERTAKE",
     "contract_address": "0x76a49ebaf991fa2d4cb6a352af14425d453fe2ba6802b5ed2361b227150b6689::take::TAKE",
     "local_image": "overtake.png",
-    "metadata": {
-      "name": "TAKE",
-      "symbol": "TAKE",
-      "decimals": 9,
-      "description": "TAKE is the utility token of OVERTAKE, used across key activities while trading on the platform. Its demand is tied to platform usage through a buyback-burn model.",
-      "iconUrl": "https://raw.githubusercontent.com/ottm-labs/overtake-content/refs/heads/main/icons/TAKE.svg",
-      "id": "0x3d323008125a4e81dfa077afa2e326673c60a3e62d8d5c7c15608f211e5f4654"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "navi",
     "symbol": "navx",
     "name": "NAVI Protocol",
     "contract_address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
     "local_image": "navi.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1757239903.0196214,
-    "id": "miu-2",
-    "symbol": "miu",
-    "name": "MIU",
-    "contract_address": "0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU",
-    "local_image": "miu-2.png",
     "metadata": {
-      "name": "MIU",
-      "symbol": "MIU",
-      "decimals": 3,
-      "description": "MIU, the meme cat coin on the SUI Network",
-      "iconUrl": "https://miucoin.io/favicon.ico",
-      "id": "0x3811280af55cb4e41f4bec205d3e54c53cf46d2ca91cf7443c3c91fe5d90dbcd"
+      "name": "NAVX Token",
+      "symbol": "NAVX",
+      "decimals": 9,
+      "description": "One-stop Liquidity Protocol on Sui",
+      "iconUrl": "https://arweave.net/FNGKLRGBS7D4lXxsmz4_F-xkMQs9DIRsTQT_q0Nn-iI",
+      "id": "0xdc0e051f8aab62d5ba1816bb7a03097faeccb7546c958da571d48882fd8dd0cd"
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "alkimi-2",
     "symbol": "alkimi",
     "name": "ALKIMI",
@@ -379,55 +370,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "suins-token",
-    "symbol": "ns",
-    "name": "SuiNS Token",
-    "contract_address": "0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS",
-    "local_image": "suins-token.png",
+    "extract_time": 1757326459.1987073,
+    "id": "miu-2",
+    "symbol": "miu",
+    "name": "MIU",
+    "contract_address": "0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU",
+    "local_image": "miu-2.png",
     "metadata": {
-      "name": "SuiNS Token",
-      "symbol": "NS",
-      "decimals": 6,
-      "description": "The native token for the SuiNS Protocol.",
-      "iconUrl": "https://token-image.suins.io/icon.svg",
-      "id": "0x279adec041f8ec5c2d419abf2c32713ae7930a9a3a1ff244c88e5ceced40db6e"
+      "name": "MIU",
+      "symbol": "MIU",
+      "decimals": 3,
+      "description": "MIU, the meme cat coin on the SUI Network",
+      "iconUrl": "https://miucoin.io/favicon.ico",
+      "id": "0x3811280af55cb4e41f4bec205d3e54c53cf46d2ca91cf7443c3c91fe5d90dbcd"
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "bluefin",
-    "symbol": "blue",
-    "name": "Bluefin",
-    "contract_address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
-    "local_image": "bluefin.png",
-    "metadata": {
-      "name": "Bluefin",
-      "symbol": "BLUE",
-      "decimals": 9,
-      "description": "BLUE is the native token of Bluefin",
-      "iconUrl": "https://bluefin.io/images/square.png",
-      "id": "0xf6d6cc0f3f0e6e838340c263d1cebb0529c4371913dc5139c1897388cc86977f"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
-    "id": "lofi-2",
-    "symbol": "lofi",
-    "name": "LOFI",
-    "contract_address": "0xf22da9a24ad027cccb5f2d496cbe91de953d363513db08a3a734d361c7c17503::LOFI::LOFI",
-    "local_image": "lofi-2.png",
-    "metadata": {
-      "name": "LOFI",
-      "symbol": "LOFI",
-      "decimals": 9,
-      "description": "Lofi is everyone's favorite Yeti on Sui",
-      "iconUrl": "https://i.ibb.co/fM8QZXh/LOFI-PFP.png",
-      "id": "0x57a2bf5e6887eca522fe6c3ff0d9d8dc116d072998a477c6c24fe6603107ebb8"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sudeng",
     "symbol": "hippo",
     "name": "sudeng",
@@ -443,7 +402,55 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "lofi-2",
+    "symbol": "lofi",
+    "name": "LOFI",
+    "contract_address": "0xf22da9a24ad027cccb5f2d496cbe91de953d363513db08a3a734d361c7c17503::LOFI::LOFI",
+    "local_image": "lofi-2.png",
+    "metadata": {
+      "name": "LOFI",
+      "symbol": "LOFI",
+      "decimals": 9,
+      "description": "Lofi is everyone's favorite Yeti on Sui",
+      "iconUrl": "https://i.ibb.co/fM8QZXh/LOFI-PFP.png",
+      "id": "0x57a2bf5e6887eca522fe6c3ff0d9d8dc116d072998a477c6c24fe6603107ebb8"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "bluefin",
+    "symbol": "blue",
+    "name": "Bluefin",
+    "contract_address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+    "local_image": "bluefin.png",
+    "metadata": {
+      "name": "Bluefin",
+      "symbol": "BLUE",
+      "decimals": 9,
+      "description": "BLUE is the native token of Bluefin",
+      "iconUrl": "https://bluefin.io/images/square.png",
+      "id": "0xf6d6cc0f3f0e6e838340c263d1cebb0529c4371913dc5139c1897388cc86977f"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "suins-token",
+    "symbol": "ns",
+    "name": "SuiNS Token",
+    "contract_address": "0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS",
+    "local_image": "suins-token.png",
+    "metadata": {
+      "name": "SuiNS Token",
+      "symbol": "NS",
+      "decimals": 6,
+      "description": "The native token for the SuiNS Protocol.",
+      "iconUrl": "https://token-image.suins.io/icon.svg",
+      "id": "0x279adec041f8ec5c2d419abf2c32713ae7930a9a3a1ff244c88e5ceced40db6e"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "sweatcoin",
     "symbol": "sweat",
     "name": "SWEAT",
@@ -459,7 +466,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "memefi-2",
     "symbol": "memefi",
     "name": "MemeFi",
@@ -475,7 +482,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "pstake-finance",
     "symbol": "pstake",
     "name": "pSTAKE Finance",
@@ -491,23 +498,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "scallop-2",
-    "symbol": "sca",
-    "name": "Scallop",
-    "contract_address": "0x7016aae72cfc67f2fadf55769c0a7dd54291a583b63051a5ed71081cce836ac6::sca::SCA",
-    "local_image": "scallop-2.png",
-    "metadata": {
-      "name": "Scallop",
-      "symbol": "SCA",
-      "decimals": 9,
-      "description": "SCA is the native token of Scallop Protocol.",
-      "iconUrl": "https://vrr7y7aent4hea3r444jrrsvgvgwsz6zi2r2vv2odhgfrgvvs6iq.arweave.net/rGP8fARs-HIDcec4mMZVNU1pZ9lGo6rXThnMWJq1l5E",
-      "id": "0x5d26a1e9a55c88147ac870bfa31b729d7f49f8804b8b3adfdf3582d301cca844"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "delorean",
     "symbol": "dmc",
     "name": "DeLorean",
@@ -523,7 +514,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "scallop-2",
+    "symbol": "sca",
+    "name": "Scallop",
+    "contract_address": "0x7016aae72cfc67f2fadf55769c0a7dd54291a583b63051a5ed71081cce836ac6::sca::SCA",
+    "local_image": "scallop-2.png",
+    "metadata": {
+      "name": "Scallop",
+      "symbol": "SCA",
+      "decimals": 9,
+      "description": "SCA is the native token of Scallop Protocol.",
+      "iconUrl": "https://vrr7y7aent4hea3r444jrrsvgvgwsz6zi2r2vv2odhgfrgvvs6iq.arweave.net/rGP8fARs-HIDcec4mMZVNU1pZ9lGo6rXThnMWJq1l5E",
+      "id": "0x5d26a1e9a55c88147ac870bfa31b729d7f49f8804b8b3adfdf3582d301cca844"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "onbuff",
     "symbol": "lwa",
     "name": "LumiWave",
@@ -539,7 +546,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "alpha-fi",
     "symbol": "alpha",
     "name": "Alpha Fi",
@@ -555,7 +562,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "doubleup",
     "symbol": "up",
     "name": "DoubleUp",
@@ -571,7 +578,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "yield-btc-b",
     "symbol": "ybtc.b",
     "name": "Yield BTC.B",
@@ -587,7 +594,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "blub",
     "symbol": "blub",
     "name": "BLUB",
@@ -603,7 +610,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "turbos-finance",
     "symbol": "turbos",
     "name": "Turbos Finance",
@@ -619,7 +626,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "xsui",
     "symbol": "xsui",
     "name": "xSUI",
@@ -635,7 +642,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "attention",
     "symbol": "attn",
     "name": "Attention",
@@ -651,39 +658,16 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "meta-usd",
     "symbol": "musd",
     "name": "Meta USD",
     "contract_address": "0xe44df51c0b21a27ab915fa1fe2ca610cd3eaa6d9666fe5e62b988bf7f0bd8722::musd::MUSD",
     "local_image": "meta-usd.png",
-    "metadata": {
-      "name": "mUSD",
-      "symbol": "mUSD",
-      "decimals": 9,
-      "description": "Metastable USD",
-      "iconUrl": "https://mstable.io/coins/musd.svg",
-      "id": "0xc154abd271b24032a2c80d96c1b82109490bb600ed189ef881d8c9467ed44a4f"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "xociety",
-    "symbol": "xo",
-    "name": "Xociety",
-    "contract_address": "0x90f9eb95f62d31fbe2179313547e360db86d88d2399103a94286291b63f469ba::xo::XO",
-    "local_image": "xociety.png",
-    "metadata": {
-      "name": "Xociety Token",
-      "symbol": "XO",
-      "decimals": 9,
-      "description": "Base currency for the Xociety ecosystem",
-      "iconUrl": "https://app.xociety.io/assets/xo/xo_token.png",
-      "id": "0xe1a221b5d9e59794c103c4057229d9c093f88e6781654d086acf059b6705d9ed"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "flowx-finance",
     "symbol": "flx",
     "name": "FlowX Finance",
@@ -699,7 +683,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "typus",
     "symbol": "typus",
     "name": "Typus",
@@ -715,7 +699,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "xociety",
+    "symbol": "xo",
+    "name": "Xociety",
+    "contract_address": "0x90f9eb95f62d31fbe2179313547e360db86d88d2399103a94286291b63f469ba::xo::XO",
+    "local_image": "xociety.png",
+    "metadata": {
+      "name": "Xociety Token",
+      "symbol": "XO",
+      "decimals": 9,
+      "description": "Base currency for the Xociety ecosystem",
+      "iconUrl": "https://app.xociety.io/assets/xo/xo_token.png",
+      "id": "0xe1a221b5d9e59794c103c4057229d9c093f88e6781654d086acf059b6705d9ed"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "axol",
     "symbol": "axol",
     "name": "AXOL",
@@ -731,7 +731,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "full-sail",
     "symbol": "sail",
     "name": "Full Sail",
@@ -747,55 +747,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "chirp-token",
-    "symbol": "chirp",
-    "name": "Chirp Token",
-    "contract_address": "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::CHIRP",
-    "local_image": "chirp-token.png",
-    "metadata": {
-      "name": "Chirp Token",
-      "symbol": "CHIRP",
-      "decimals": 10,
-      "description": "CHIRP: The native token of Chirp’s DePIN ecosystem.",
-      "iconUrl": "https://download.chirpwireless.io/images/CHIRP_White_OBG.svg",
-      "id": "0x9cde4184d232c02e04e747f281af36cd639cab632c2aaff727b45d0383832d14"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
-    "id": "bucket-token",
-    "symbol": "but",
-    "name": "Bucket Token",
-    "contract_address": "0xbc858cb910b9914bee64fff0f9b38855355a040c49155a17b265d9086d256545::but::BUT",
-    "local_image": "bucket-token.png",
-    "metadata": {
-      "name": "Bucket Token",
-      "symbol": "BUT",
-      "decimals": 9,
-      "description": "Governance token of Bucket Protocol",
-      "iconUrl": "https://aqua-natural-grasshopper-705.mypinata.cloud/ipfs/QmUKAX4PME9Wb9VU6CMJPisNysaVKZNKpiB3gtMVVZTfjt",
-      "id": "0x149919d1527c1f9fa29a201c8f877658144bbe5e3cbbd2dec181dab8feef5c66"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
-    "id": "balance-tokens",
-    "symbol": "baln",
-    "name": "Balanced",
-    "contract_address": "0x3ae6be8e58c0e0715764971b750709e67c6de33e38bbecafe25b5f3dd5080a39::balanced_token::BALANCED_TOKEN",
-    "local_image": "balance-tokens.png",
-    "metadata": {
-      "name": "Balance Token",
-      "symbol": "BALN",
-      "decimals": 9,
-      "description": "A governance coin of Balanced",
-      "iconUrl": "https://raw.githubusercontent.com/balancednetwork/icons/refs/heads/main/tokens/baln.png",
-      "id": "0x93601f17f8a0cc46a10c5c68ff978c7bf2ef2b1cb2b52a6f401c4a935a50182f"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suiai",
     "symbol": "suai",
     "name": "SuiAI",
@@ -811,55 +763,39 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "sui-trump",
-    "symbol": "suitrump",
-    "name": "SUI TRUMP",
-    "contract_address": "0xdeb831e796f16f8257681c0d5d4108fa94333060300b2459133a96631bf470b8::suitrump::SUITRUMP",
-    "local_image": "sui-trump.png",
+    "extract_time": 1757326459.1987073,
+    "id": "chirp-token",
+    "symbol": "chirp",
+    "name": "Chirp Token",
+    "contract_address": "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::CHIRP",
+    "local_image": "chirp-token.png",
     "metadata": {
-      "name": "SUI TRUMP",
-      "symbol": "SUITRUMP",
-      "decimals": 6,
-      "description": "Ladies and gentlemen, let me introduce you to something that's gonna be yuuuge in the world of cryptocurrency - the SUITRUMP MEMECOIN! This isn't just any coin, folks, it's the coin of the people, by the people, for the people - and when I say \"people,\" I mean winners. \n\nWe're talking about a memecoin that's as bold, brash, and beautiful as myself, Donald J. Trump. It's not just digital currency; it's a movement, a phenomenon, a testament to the fact that when you're a star, they let you do anything. SUITRUMP MEMECOIN is here to shake up the crypto world like nobody's business, because when you're me, everything you touch turns to gold, or in this case, to the most spectacular, high-flying memecoin you've ever seen. \n\nGet ready, because with SUITRUMP, you're not just buying a coin, you're investing in the future, in America, in Making Crypto Great Again!",
-      "iconUrl": "https://api.movepump.com/uploads/4fa877d1_e15e_4725_bf83_af59ecf40afa_503e5cc707.jpeg",
-      "id": "0x52b72e018ff1edf0873fa4051274ec15d76159c3a79346ce75625f101d4865a5"
+      "name": "Chirp Token",
+      "symbol": "CHIRP",
+      "decimals": 10,
+      "description": "CHIRP: The native token of Chirp’s DePIN ecosystem.",
+      "iconUrl": "https://download.chirpwireless.io/images/CHIRP_White_OBG.svg",
+      "id": "0x9cde4184d232c02e04e747f281af36cd639cab632c2aaff727b45d0383832d14"
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "manifest-3",
-    "symbol": "manifest",
-    "name": "manifest",
-    "contract_address": "0xc466c28d87b3d5cd34f3d5c088751532d71a38d93a8aae4551dd56272cfb4355::manifest::MANIFEST",
-    "local_image": "manifest-3.png",
+    "extract_time": 1757326459.1987073,
+    "id": "bucket-token",
+    "symbol": "but",
+    "name": "Bucket Token",
+    "contract_address": "0xbc858cb910b9914bee64fff0f9b38855355a040c49155a17b265d9086d256545::but::BUT",
+    "local_image": "bucket-token.png",
     "metadata": {
-      "name": "manifest",
-      "symbol": "manifest",
+      "name": "Bucket Token",
+      "symbol": "BUT",
       "decimals": 9,
-      "description": "manifesting 69B",
-      "iconUrl": "data:image/jpeg;base64,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6I1tcGh0veVDJw1r2PkhIDTu3AhglHQY5x7EGypp4oGtM0jIw5wYC44y48AeZVRaun09d6uplpaiO6ujFa1zpnVp7t0QmBYYxu3NIYOSNp69Sci0qLZrA1FDHH+U2tjgdFJK2p3Et2yAdXgbs7OSCTwdw5QbcRapt9s1X+UbQ6c3GKmicOBMXdJcuMgMp4LMcHfjnGFd6kt+qJLvdH2v08PcJe5kbUYhMRgwxjW7uH97znA8/Yg2PJPFHLFHJIxskpIY0nBcQMkDx4BKqZwtTXywagdc6k26O6GeDv8A0WpfV7oww02xgaHPyH7yeSM85J5U/oy13eOuMl0fX+ixQH0dk8xzuc924OG927jbjcTjPGOUGbQTRVELZYJGyROGWvacg+RVQkAZK1DJp/UlvtopqCO4uilihL2sqz83JmbdtG9pA5i4DgOh5wQch0hR3+G/zSXZtY6GSjG98suWCXbH6rWhxB538hrcc53ZygzmnniqYI56eRksMjQ9j2HLXNIyCD7Qqi0rbrBqmm07QUlPFd6anhhpI6iH0ndIZGwzNkMZEgwzcYOA4D1enjKGzatkuNd39Tcj3gjZvZNtYWboM7cP9VwAk6NH53JyEG1kWCVNuu8Wm6SleLlOyK5T98yGpIqJKXfL3QEhcD7YT9LOAfJQNXatWSOmbF+VGVLosd6awFnd+jNbsGCB3nfZO7aPbzzhBs6ruVFRTwQ1dXBBNOdsTJJA10hyBhoPXqPirtarq9KXc3qkqojXv9ElLIpHVjie6NVC/By71h3fedc8AD2BVZ9OX+eGKR9RdGzmKmdIGVz2jvHTnv8AgOwB3fsHA9nKDZ6psnifNJEyRrpYwC9gPLc9MhauFn1ay704ZUV7aeEPZA4zb2gCWXHeZf62YzHyQ4+R5U/2d22toqm5T11NXwmdkAzWT969z2tIeQdzsDJ4/YgzZERAREQEREBERAREQEREBERB8LQXAkDI6FfURAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA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",
-      "id": "0x2def4762956846ab63f9eac09f889e6e0a5888ddbdf6f8e358c8ee5463b688fb"
+      "description": "Governance token of Bucket Protocol",
+      "iconUrl": "https://aqua-natural-grasshopper-705.mypinata.cloud/ipfs/QmUKAX4PME9Wb9VU6CMJPisNysaVKZNKpiB3gtMVVZTfjt",
+      "id": "0x149919d1527c1f9fa29a201c8f877658144bbe5e3cbbd2dec181dab8feef5c66"
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "sroomai-dao",
-    "symbol": "shr0",
-    "name": "SroomAI DAO",
-    "contract_address": "0x16ab6a14d76a90328a6b04f06b0a0ce952847017023624e0c37bf8aa314c39ba::shr::SHR",
-    "local_image": "sroomai-dao.png",
-    "metadata": {
-      "name": "SroomAI DAO",
-      "symbol": "SHR0",
-      "decimals": 9,
-      "description": "SroomAI DAO - the first AI hedge fund for AI projects investment on SUI.",
-      "iconUrl": "https://suidaos.com/logo/shro.png",
-      "id": "0x91f3107e5dd624694c26263f27b1b6ace16b2ca16308d87ffa48d0eccc88f785"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "fud-the-pug",
     "symbol": "fud",
     "name": "Fud the Pug",
@@ -875,7 +811,71 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "balance-tokens",
+    "symbol": "baln",
+    "name": "Balanced",
+    "contract_address": "0x3ae6be8e58c0e0715764971b750709e67c6de33e38bbecafe25b5f3dd5080a39::balanced_token::BALANCED_TOKEN",
+    "local_image": "balance-tokens.png",
+    "metadata": {
+      "name": "Balance Token",
+      "symbol": "BALN",
+      "decimals": 9,
+      "description": "A governance coin of Balanced",
+      "iconUrl": "https://raw.githubusercontent.com/balancednetwork/icons/refs/heads/main/tokens/baln.png",
+      "id": "0x93601f17f8a0cc46a10c5c68ff978c7bf2ef2b1cb2b52a6f401c4a935a50182f"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "sui-trump",
+    "symbol": "suitrump",
+    "name": "SUI TRUMP",
+    "contract_address": "0xdeb831e796f16f8257681c0d5d4108fa94333060300b2459133a96631bf470b8::suitrump::SUITRUMP",
+    "local_image": "sui-trump.png",
+    "metadata": {
+      "name": "SUI TRUMP",
+      "symbol": "SUITRUMP",
+      "decimals": 6,
+      "description": "Ladies and gentlemen, let me introduce you to something that's gonna be yuuuge in the world of cryptocurrency - the SUITRUMP MEMECOIN! This isn't just any coin, folks, it's the coin of the people, by the people, for the people - and when I say \"people,\" I mean winners. \n\nWe're talking about a memecoin that's as bold, brash, and beautiful as myself, Donald J. Trump. It's not just digital currency; it's a movement, a phenomenon, a testament to the fact that when you're a star, they let you do anything. SUITRUMP MEMECOIN is here to shake up the crypto world like nobody's business, because when you're me, everything you touch turns to gold, or in this case, to the most spectacular, high-flying memecoin you've ever seen. \n\nGet ready, because with SUITRUMP, you're not just buying a coin, you're investing in the future, in America, in Making Crypto Great Again!",
+      "iconUrl": "https://api.movepump.com/uploads/4fa877d1_e15e_4725_bf83_af59ecf40afa_503e5cc707.jpeg",
+      "id": "0x52b72e018ff1edf0873fa4051274ec15d76159c3a79346ce75625f101d4865a5"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "sroomai-dao",
+    "symbol": "shr0",
+    "name": "SroomAI DAO",
+    "contract_address": "0x16ab6a14d76a90328a6b04f06b0a0ce952847017023624e0c37bf8aa314c39ba::shr::SHR",
+    "local_image": "sroomai-dao.png",
+    "metadata": {
+      "name": "SroomAI DAO",
+      "symbol": "SHR0",
+      "decimals": 9,
+      "description": "SroomAI DAO - the first AI hedge fund for AI projects investment on SUI.",
+      "iconUrl": "https://suidaos.com/logo/shro.png",
+      "id": "0x91f3107e5dd624694c26263f27b1b6ace16b2ca16308d87ffa48d0eccc88f785"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
+    "id": "manifest-3",
+    "symbol": "manifest",
+    "name": "manifest",
+    "contract_address": "0xc466c28d87b3d5cd34f3d5c088751532d71a38d93a8aae4551dd56272cfb4355::manifest::MANIFEST",
+    "local_image": "manifest-3.png",
+    "metadata": {
+      "name": "manifest",
+      "symbol": "manifest",
+      "decimals": 9,
+      "description": "manifesting 69B",
+      "iconUrl": "data:image/jpeg;base64,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6I1tcGh0veVDJw1r2PkhIDTu3AhglHQY5x7EGypp4oGtM0jIw5wYC44y48AeZVRaun09d6uplpaiO6ujFa1zpnVp7t0QmBYYxu3NIYOSNp69Sci0qLZrA1FDHH+U2tjgdFJK2p3Et2yAdXgbs7OSCTwdw5QbcRapt9s1X+UbQ6c3GKmicOBMXdJcuMgMp4LMcHfjnGFd6kt+qJLvdH2v08PcJe5kbUYhMRgwxjW7uH97znA8/Yg2PJPFHLFHJIxskpIY0nBcQMkDx4BKqZwtTXywagdc6k26O6GeDv8A0WpfV7oww02xgaHPyH7yeSM85J5U/oy13eOuMl0fX+ixQH0dk8xzuc924OG927jbjcTjPGOUGbQTRVELZYJGyROGWvacg+RVQkAZK1DJp/UlvtopqCO4uilihL2sqz83JmbdtG9pA5i4DgOh5wQch0hR3+G/zSXZtY6GSjG98suWCXbH6rWhxB538hrcc53ZygzmnniqYI56eRksMjQ9j2HLXNIyCD7Qqi0rbrBqmm07QUlPFd6anhhpI6iH0ndIZGwzNkMZEgwzcYOA4D1enjKGzatkuNd39Tcj3gjZvZNtYWboM7cP9VwAk6NH53JyEG1kWCVNuu8Wm6SleLlOyK5T98yGpIqJKXfL3QEhcD7YT9LOAfJQNXatWSOmbF+VGVLosd6awFnd+jNbsGCB3nfZO7aPbzzhBs6ruVFRTwQ1dXBBNOdsTJJA10hyBhoPXqPirtarq9KXc3qkqojXv9ElLIpHVjie6NVC/By71h3fedc8AD2BVZ9OX+eGKR9RdGzmKmdIGVz2jvHTnv8AgOwB3fsHA9nKDZ6psnifNJEyRrpYwC9gPLc9MhauFn1ay704ZUV7aeEPZA4zb2gCWXHeZf62YzHyQ4+R5U/2d22toqm5T11NXwmdkAzWT969z2tIeQdzsDJ4/YgzZERAREQEREBERAREQEREBERB8LQXAkDI6FfURAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA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",
+      "id": "0x2def4762956846ab63f9eac09f889e6e0a5888ddbdf6f8e358c8ee5463b688fb"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "koban",
     "symbol": "koban",
     "name": "KOBAN",
@@ -891,7 +891,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "tardi",
     "symbol": "tardi",
     "name": "Tardi",
@@ -907,7 +907,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suipad",
     "symbol": "suip",
     "name": "SuiPad",
@@ -923,7 +923,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suicune-on-sui",
     "symbol": "hsui",
     "name": "Suicune",
@@ -939,7 +939,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "bluemove",
     "symbol": "move",
     "name": "BlueMove",
@@ -955,7 +955,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sui-agents",
     "symbol": "suiai",
     "name": "SUI Agents",
@@ -971,7 +971,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "toilet-dust",
     "symbol": "toilet",
     "name": "Toilet Dust",
@@ -987,7 +987,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "team-mysten",
     "symbol": "mysten",
     "name": "Team Mysten",
@@ -1003,23 +1003,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "super-suiyan",
-    "symbol": "suiyan",
-    "name": "Super Suiyan",
-    "contract_address": "0xe0fbaffa16409259e431b3e1ff97bf6129641945b42e5e735c99aeda73a595ac::suiyan::SUIYAN",
-    "local_image": "super-suiyan.png",
-    "metadata": {
-      "name": "Super Suiyan",
-      "symbol": "SUIYAN",
-      "decimals": 6,
-      "description": "It's the super suiyan cycle",
-      "iconUrl": "https://r.turbos.finance/icon/1730995174149.png",
-      "id": "0x515d3f52ac764e1ebdcfe040a3e98ac2d5a91db811c7c9253e49cd3e497fca51"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "e4c",
     "symbol": "e4c",
     "name": "E4C",
@@ -1035,7 +1019,16 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "super-suiyan",
+    "symbol": "suiyan",
+    "name": "Super Suiyan",
+    "contract_address": "0xe0fbaffa16409259e431b3e1ff97bf6129641945b42e5e735c99aeda73a595ac::suiyan::SUIYAN",
+    "local_image": "super-suiyan.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "culosui",
     "symbol": "culo",
     "name": "CULOSUI",
@@ -1051,7 +1044,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "artfi",
     "symbol": "artfi",
     "name": "ARTFI",
@@ -1067,7 +1060,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sonic-snipe-bot",
     "symbol": "sonic",
     "name": "Sonic Snipe Bot",
@@ -1083,7 +1076,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "pumpkin-token",
     "symbol": "pumpkin",
     "name": "PUMPKIN TOKEN",
@@ -1099,7 +1092,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "uni",
     "symbol": "uni",
     "name": "Uni",
@@ -1115,23 +1108,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "seed-3",
-    "symbol": "seed",
-    "name": "SEED",
-    "contract_address": "0x1e005d033d858a39e1210aafdd139ce4fa21c79cdb8acadd16513a03c9d4cebd::seed::SEED",
-    "local_image": "seed-3.png",
-    "metadata": {
-      "name": "SEED",
-      "symbol": "SEED",
-      "decimals": 6,
-      "description": "No.1 Play2Earn Telegram Miniapp.",
-      "iconUrl": "https://ipfs.io/ipfs/QmXkVde4AVDnwcNAupToHuCmx6dEbf2WwNqMM9f4VmhV2k",
-      "id": "0x8f2880407042276bccc4d35009b6aa2485c80823d80cef997802631577f9787c"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "pugwifhat",
     "symbol": "pugwif",
     "name": "PUGWIFHAT",
@@ -1147,7 +1124,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "seed-3",
+    "symbol": "seed",
+    "name": "SEED",
+    "contract_address": "0x1e005d033d858a39e1210aafdd139ce4fa21c79cdb8acadd16513a03c9d4cebd::seed::SEED",
+    "local_image": "seed-3.png",
+    "metadata": {
+      "name": "SEED",
+      "symbol": "SEED",
+      "decimals": 6,
+      "description": "No.1 Play2Earn Telegram Miniapp.",
+      "iconUrl": "https://ipfs.io/ipfs/QmXkVde4AVDnwcNAupToHuCmx6dEbf2WwNqMM9f4VmhV2k",
+      "id": "0x8f2880407042276bccc4d35009b6aa2485c80823d80cef997802631577f9787c"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "billy-on-sui",
     "symbol": "billy",
     "name": "Billy on SUI",
@@ -1163,7 +1156,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "kriyadex",
     "symbol": "kdx",
     "name": "Kriya",
@@ -1179,23 +1172,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "rockee-ai",
-    "symbol": "rock",
-    "name": "Rockee AI",
-    "contract_address": "0xb4bc93ad1a07fe47943fc4d776fed31ce31923acb5bc9f92d2cab14d01fc06a4::ROCK::ROCK",
-    "local_image": "rockee-ai.png",
-    "metadata": {
-      "name": "Rockee AI",
-      "symbol": "ROCK",
-      "decimals": 6,
-      "description": "The AI-Driven DeFi Protocol",
-      "iconUrl": "https://rockee.ai/images/logo.png",
-      "id": "0xfb1ab1ce077233f2441ee8fa86d1c084cc14f256040708c8ba0464ea1220157d"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "aaa-cat",
     "symbol": "aaa",
     "name": "aaa cat",
@@ -1211,7 +1188,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "rockee-ai",
+    "symbol": "rock",
+    "name": "Rockee AI",
+    "contract_address": "0xb4bc93ad1a07fe47943fc4d776fed31ce31923acb5bc9f92d2cab14d01fc06a4::ROCK::ROCK",
+    "local_image": "rockee-ai.png",
+    "metadata": {
+      "name": "Rockee AI",
+      "symbol": "ROCK",
+      "decimals": 6,
+      "description": "The AI-Driven DeFi Protocol",
+      "iconUrl": "https://rockee.ai/images/logo.png",
+      "id": "0xfb1ab1ce077233f2441ee8fa86d1c084cc14f256040708c8ba0464ea1220157d"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "zenfrogs",
     "symbol": "zen",
     "name": "ZenFrogs",
@@ -1227,7 +1220,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "usdz",
     "symbol": "usdz",
     "name": "USDZ",
@@ -1243,23 +1236,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "times",
-    "symbol": "$times",
-    "name": "TIMES",
-    "contract_address": "0x46fbe54691b27d7abd2c9e5a01088913531f241b98f3c2351f8215e45cc17a4c::times::TIMES",
-    "local_image": "times.png",
-    "metadata": {
-      "name": "TIMES",
-      "symbol": "$TIMES",
-      "decimals": 5,
-      "description": "$TIMES is the token for the DARKTIMES game",
-      "iconUrl": "https://assets.playdarktimes.com/images/icons/darktimes_logo.png",
-      "id": "0xebce668e5c28b85e5898f18428fc9bdecf7dc5fd122c616f90b86b9be92616a9"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "pigu",
     "symbol": "pigu",
     "name": "PIGU",
@@ -1275,7 +1252,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "meow-3",
     "symbol": "meow",
     "name": "MEOW",
@@ -1291,7 +1268,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "alpha-city-2",
     "symbol": "city",
     "name": "Alpha City",
@@ -1307,7 +1284,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "times",
+    "symbol": "$times",
+    "name": "TIMES",
+    "contract_address": "0x46fbe54691b27d7abd2c9e5a01088913531f241b98f3c2351f8215e45cc17a4c::times::TIMES",
+    "local_image": "times.png",
+    "metadata": {
+      "name": "TIMES",
+      "symbol": "$TIMES",
+      "decimals": 5,
+      "description": "$TIMES is the token for the DARKTIMES game",
+      "iconUrl": "https://assets.playdarktimes.com/images/icons/darktimes_logo.png",
+      "id": "0xebce668e5c28b85e5898f18428fc9bdecf7dc5fd122c616f90b86b9be92616a9"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "agent-s",
     "symbol": "s",
     "name": "Agent S",
@@ -1323,23 +1316,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "oceansgallerie-on-sui",
-    "symbol": "oceans",
-    "name": "OceansGallerie On SUI",
-    "contract_address": "0xe90c71d308d8e6fed933d20f8b94d811e1dac649dac7815762520e90f84392f7::oceans::OCEANS",
-    "local_image": "oceansgallerie-on-sui.png",
-    "metadata": {
-      "name": "OceansGallerie",
-      "symbol": "OCEANS",
-      "decimals": 9,
-      "description": "OceansGallerie is a task-driven Web3 platform within the Sui ecosystem, enabling users to complete on-chain and off-chain tasks to engage with Sui-based projects",
-      "iconUrl": "data:image/jpeg;base64,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",
-      "id": "0x803f85e1fefd427539d61c46b97bc3a0c3041d985e7a3ca485a6836c5dc9922b"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "pandasui-coin",
     "symbol": "pans",
     "name": "PandaSui Coin",
@@ -1355,23 +1332,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "suiswap",
-    "symbol": "sswp",
-    "name": "Suiswap",
-    "contract_address": "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN",
-    "local_image": "suiswap.png",
-    "metadata": {
-      "name": "Suiswap Token",
-      "symbol": "SSWP",
-      "decimals": 9,
-      "description": "Suiswap Platform Governance Token",
-      "iconUrl": "https://suiswap.app/images/token/suiswap.svg",
-      "id": "0x41911b7d8d87ceee4043ea3b83f402a03d0ffa0b286e78b23dcd81c9cde0f02f"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "hopper-the-rabbit",
     "symbol": "hopper",
     "name": "Hopper the Rabbit",
@@ -1387,16 +1348,39 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "suijak",
-    "symbol": "suijak",
-    "name": "Suijak",
-    "contract_address": "0xd9773016f31a1216fb0a1e0b0937f09687663807e8cb8a19ba5a12f2f5dcab88::suijak::SUIJAK",
-    "local_image": "suijak.png",
-    "metadata": {}
+    "extract_time": 1757326459.1987073,
+    "id": "suiswap",
+    "symbol": "sswp",
+    "name": "Suiswap",
+    "contract_address": "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN",
+    "local_image": "suiswap.png",
+    "metadata": {
+      "name": "Suiswap Token",
+      "symbol": "SSWP",
+      "decimals": 9,
+      "description": "Suiswap Platform Governance Token",
+      "iconUrl": "https://suiswap.app/images/token/suiswap.svg",
+      "id": "0x41911b7d8d87ceee4043ea3b83f402a03d0ffa0b286e78b23dcd81c9cde0f02f"
+    }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "oceansgallerie-on-sui",
+    "symbol": "oceans",
+    "name": "OceansGallerie On SUI",
+    "contract_address": "0xe90c71d308d8e6fed933d20f8b94d811e1dac649dac7815762520e90f84392f7::oceans::OCEANS",
+    "local_image": "oceansgallerie-on-sui.png",
+    "metadata": {
+      "name": "OceansGallerie",
+      "symbol": "OCEANS",
+      "decimals": 9,
+      "description": "OceansGallerie is a task-driven Web3 platform within the Sui ecosystem, enabling users to complete on-chain and off-chain tasks to engage with Sui-based projects",
+      "iconUrl": "data:image/jpeg;base64,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",
+      "id": "0x803f85e1fefd427539d61c46b97bc3a0c3041d985e7a3ca485a6836c5dc9922b"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "slove",
     "symbol": "slove",
     "name": "SLOVE",
@@ -1412,16 +1396,39 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "suijak",
+    "symbol": "suijak",
+    "name": "Suijak",
+    "contract_address": "0xd9773016f31a1216fb0a1e0b0937f09687663807e8cb8a19ba5a12f2f5dcab88::suijak::SUIJAK",
+    "local_image": "suijak.png",
+    "metadata": {
+      "name": "Suijak",
+      "symbol": "SUIJAK",
+      "decimals": 6,
+      "description": "The legendary Wojak, now on Sui",
+      "iconUrl": "https://api.movepump.com/uploads/photo_2024_10_03_18_33_00_041df413b6.jpg",
+      "id": "0x10244f0a3f7c780f22acf3654b78ae9adc109c09106e6474d88040b78d1cd936"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "sacabam",
     "symbol": "scb",
     "name": "Sacabam",
     "contract_address": "0x9a5502414b5d51d01c8b5641db7436d789fa15a245694b24aa37c25c2a6ce001::scb::SCB",
     "local_image": "sacabam.png",
-    "metadata": {}
+    "metadata": {
+      "name": "Sacabam",
+      "symbol": "SCB",
+      "decimals": 5,
+      "description": "The best meme token that Sui has ever seen",
+      "iconUrl": "https://ipfs.io/ipfs/bafkreigdxf7biamfqdifni73ca7twmaakkkgylo47ovekl4qjmduu3qaxi",
+      "id": "0xa34116a52f537f5235fe5d9a2e92195ffcdb2b55afba70b2b86b40c7f89bb01d"
+    }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suite-2",
     "symbol": "suite",
     "name": "Suite",
@@ -1437,7 +1444,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "beeg-blue-whale",
     "symbol": "beeg",
     "name": "Beeg Blue Whale",
@@ -1453,23 +1460,16 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "suiba-inu",
     "symbol": "suib",
     "name": "Suiba Inu",
     "contract_address": "0xed4504e791e1dad7bf93b41e089b4733c27f35fde505693e18186c2ba8e2e14b::suib::SUIB",
     "local_image": "suiba-inu.png",
-    "metadata": {
-      "name": "Suiba Inu",
-      "symbol": "SUIB",
-      "decimals": 9,
-      "description": "Emerging from Shiba's boundless love, Suiba, your liquid companion, journeys with you on the Sui chain.",
-      "iconUrl": "https://suibacoin.com/suiba.svg",
-      "id": "0xfd7cfcb627381de46e4d7bdd4a0cf3c37d8f241c8e0513565531d5e410037c59"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "sui-monster",
     "symbol": "suimon",
     "name": "Sui Monster",
@@ -1485,23 +1485,7 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "slaunch",
-    "symbol": "s",
-    "name": "Slaunch",
-    "contract_address": "0x80c204e59e0f55c7624210f04820c292a35176834756388397b47305cf2e7e1f::s::S",
-    "local_image": "slaunch.png",
-    "metadata": {
-      "name": "Slaunch",
-      "symbol": "S",
-      "decimals": 6,
-      "description": "$S is the access key to Slaunch. It’s used to earn points, unlock IAOs, pay fees, raise funds, and vote. Points come from holding, staking, or trading. Public rounds require burning points. Mindshare rewards are paid separately in $SUI.",
-      "iconUrl": "https://storage.slaunch.xyz/assets/tokens/e7e9c703-f1b2-436e-b79f-6d542536f167.png",
-      "id": "0xb1385a3848cce32ebfc8c146938d0a551afd306132b3f6633c80859a988a3029"
-    }
-  },
-  {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "daossui-token",
     "symbol": "daos",
     "name": "Daossui Token",
@@ -1517,23 +1501,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
-    "id": "wave",
-    "symbol": "wav",
-    "name": "WAVE",
-    "contract_address": "0x82616322719cb327186d5b83a6d7783ce5cef4c5dbd4c6d1b5f3d6e5d288e2be::wav::WAV",
-    "local_image": "wave.png",
+    "extract_time": 1757326459.1987073,
+    "id": "slaunch",
+    "symbol": "s",
+    "name": "Slaunch",
+    "contract_address": "0x80c204e59e0f55c7624210f04820c292a35176834756388397b47305cf2e7e1f::s::S",
+    "local_image": "slaunch.png",
     "metadata": {
-      "name": "WAVE",
-      "symbol": "WAV",
-      "decimals": 9,
-      "description": "WAV is the native token of Wave Ecosystem",
-      "iconUrl": "https://files.waveonsui.com/logos/wav.png",
-      "id": "0xa24da85130effb365ee6be1382ce58a0cba44b42f476aaa8a675548ba72fa008"
+      "name": "Slaunch",
+      "symbol": "S",
+      "decimals": 6,
+      "description": "$S is the access key to Slaunch. It’s used to earn points, unlock IAOs, pay fees, raise funds, and vote. Points come from holding, staking, or trading. Public rounds require burning points. Mindshare rewards are paid separately in $SUI.",
+      "iconUrl": "https://storage.slaunch.xyz/assets/tokens/e7e9c703-f1b2-436e-b79f-6d542536f167.png",
+      "id": "0xb1385a3848cce32ebfc8c146938d0a551afd306132b3f6633c80859a988a3029"
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
     "id": "aida",
     "symbol": "aida",
     "name": "AIDA",
@@ -1549,7 +1533,23 @@
     }
   },
   {
-    "extract_time": 1757239903.0196214,
+    "extract_time": 1757326459.1987073,
+    "id": "wave",
+    "symbol": "wav",
+    "name": "WAVE",
+    "contract_address": "0x82616322719cb327186d5b83a6d7783ce5cef4c5dbd4c6d1b5f3d6e5d288e2be::wav::WAV",
+    "local_image": "wave.png",
+    "metadata": {
+      "name": "WAVE",
+      "symbol": "WAV",
+      "decimals": 9,
+      "description": "WAV is the native token of Wave Ecosystem",
+      "iconUrl": "https://files.waveonsui.com/logos/wav.png",
+      "id": "0xa24da85130effb365ee6be1382ce58a0cba44b42f476aaa8a675548ba72fa008"
+    }
+  },
+  {
+    "extract_time": 1757326459.1987073,
     "id": "dapyai",
     "symbol": "$dapy",
     "name": "DapyAI",
