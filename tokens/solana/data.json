@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "tether",
     "symbol": "usdt",
     "name": "Tether",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "solana",
     "symbol": "sol",
     "name": "Solana",
@@ -20,7 +20,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -31,7 +31,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "wrapped-bitcoin",
     "symbol": "wbtc",
     "name": "Wrapped Bitcoin",
@@ -42,18 +42,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "ethena-usde",
-    "symbol": "usde",
-    "name": "Ethena USDe",
-    "contract_address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
-    "local_image": "ethena-usde.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "chainlink",
     "symbol": "link",
     "name": "Chainlink",
@@ -64,7 +53,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "ethena-usde",
+    "symbol": "usde",
+    "name": "Ethena USDe",
+    "contract_address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
+    "local_image": "ethena-usde.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "usds",
     "symbol": "usds",
     "name": "USDS",
@@ -75,7 +75,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "coinbase-wrapped-btc",
     "symbol": "cbbtc",
     "name": "Coinbase Wrapped BTC",
@@ -86,7 +86,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "ethena-staked-usde",
     "symbol": "susde",
     "name": "Ethena Staked USDe",
@@ -97,7 +97,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "world-liberty-financial",
     "symbol": "wlfi",
     "name": "World Liberty Financial",
@@ -108,29 +108,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "buidl",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "contract_address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
-    "local_image": "blackrock-usd-institutional-digital-liquidity-fund.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "usd1-wlfi",
-    "symbol": "usd1",
-    "name": "USD1",
-    "contract_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-    "local_image": "usd1-wlfi.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "jito-staked-sol",
     "symbol": "jitosol",
     "name": "Jito Staked SOL",
@@ -141,7 +119,29 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "buidl",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "contract_address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+    "local_image": "blackrock-usd-institutional-digital-liquidity-fund.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "usd1-wlfi",
+    "symbol": "usd1",
+    "name": "USD1",
+    "contract_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+    "local_image": "usd1-wlfi.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "paypal-usd",
     "symbol": "pyusd",
     "name": "PayPal USD",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "jupiter-perpetuals-liquidity-provider-token",
     "symbol": "jlp",
     "name": "Jupiter Perpetuals Liquidity Provider Token",
@@ -163,7 +163,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "binance-staked-sol",
     "symbol": "bnsol",
     "name": "Binance Staked SOL",
@@ -174,7 +174,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "pudgy-penguins",
     "symbol": "pengu",
     "name": "Pudgy Penguins",
@@ -185,29 +185,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "lombard-staked-btc",
-    "symbol": "lbtc",
-    "name": "Lombard Staked BTC",
-    "contract_address": "LBTCgU4b3wsFKsPwBn1rRZDx5DoFutM6RPiEt1TPDsY",
-    "local_image": "lombard-staked-btc.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "pump-fun",
-    "symbol": "pump",
-    "name": "Pump.fun",
-    "contract_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "local_image": "pump-fun.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "render-token",
     "symbol": "render",
     "name": "Render",
@@ -218,73 +196,29 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "official-trump",
-    "symbol": "trump",
-    "name": "Official Trump",
-    "contract_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-    "local_image": "official-trump.png",
+    "extract_time": 1760350549.8129194,
+    "id": "pump-fun",
+    "symbol": "pump",
+    "name": "Pump.fun",
+    "contract_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "local_image": "pump-fun.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "solv-btc",
-    "symbol": "solvbtc",
-    "name": "Solv Protocol BTC",
-    "contract_address": "SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW",
-    "local_image": "solv-btc.png",
+    "extract_time": 1760350549.8129194,
+    "id": "lombard-staked-btc",
+    "symbol": "lbtc",
+    "name": "Lombard Staked BTC",
+    "contract_address": "LBTCgU4b3wsFKsPwBn1rRZDx5DoFutM6RPiEt1TPDsY",
+    "local_image": "lombard-staked-btc.png",
     "metadata": {
       "decimals": 8
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "syrupusdc",
-    "symbol": "syrupusdc",
-    "name": "Syrup USDC",
-    "contract_address": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
-    "local_image": "syrupusdc.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "jupiter-exchange-solana",
-    "symbol": "jup",
-    "name": "Jupiter",
-    "contract_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-    "local_image": "jupiter-exchange-solana.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "first-digital-usd",
-    "symbol": "fdusd",
-    "name": "First Digital USD",
-    "contract_address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
-    "local_image": "first-digital-usd.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "bonk",
-    "symbol": "bonk",
-    "name": "Bonk",
-    "contract_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
-    "local_image": "bonk.png",
-    "metadata": {
-      "decimals": 5
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "pancakeswap-token",
     "symbol": "cake",
     "name": "PancakeSwap",
@@ -295,7 +229,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "official-trump",
+    "symbol": "trump",
+    "name": "Official Trump",
+    "contract_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "local_image": "official-trump.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "bonk",
+    "symbol": "bonk",
+    "name": "Bonk",
+    "contract_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "local_image": "bonk.png",
+    "metadata": {
+      "decimals": 5
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "jupiter-exchange-solana",
+    "symbol": "jup",
+    "name": "Jupiter",
+    "contract_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "local_image": "jupiter-exchange-solana.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "spx6900",
     "symbol": "spx",
     "name": "SPX6900",
@@ -306,7 +273,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "solv-btc",
+    "symbol": "solvbtc",
+    "name": "Solv Protocol BTC",
+    "contract_address": "SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW",
+    "local_image": "solv-btc.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "syrupusdc",
+    "symbol": "syrupusdc",
+    "name": "Syrup USDC",
+    "contract_address": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
+    "local_image": "syrupusdc.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "first-digital-usd",
+    "symbol": "fdusd",
+    "name": "First Digital USD",
+    "contract_address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
+    "local_image": "first-digital-usd.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "jupiter-staked-sol",
     "symbol": "jupsol",
     "name": "Jupiter Staked SOL",
@@ -317,7 +317,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "doublezero",
     "symbol": "2z",
     "name": "DoubleZero",
@@ -328,18 +328,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "ousg",
-    "symbol": "ousg",
-    "name": "OUSG",
-    "contract_address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
-    "local_image": "ousg.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "msol",
     "symbol": "msol",
     "name": "Marinade Staked SOL",
@@ -350,7 +339,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "ousg",
+    "symbol": "ousg",
+    "name": "OUSG",
+    "contract_address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+    "local_image": "ousg.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "global-dollar",
     "symbol": "usdg",
     "name": "Global Dollar",
@@ -361,40 +361,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "tbtc",
-    "symbol": "tbtc",
-    "name": "tBTC",
-    "contract_address": "6DNSN2BJsaPFdFFc1zP37kkeNe4Usc1Sqkzr9C9vPWcU",
-    "local_image": "tbtc.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "ondo-us-dollar-yield",
-    "symbol": "usdy",
-    "name": "Ondo US Dollar Yield",
-    "contract_address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
-    "local_image": "ondo-us-dollar-yield.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "saros-finance",
-    "symbol": "saros",
-    "name": "Saros",
-    "contract_address": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
-    "local_image": "saros-finance.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "pyth-network",
     "symbol": "pyth",
     "name": "Pyth Network",
@@ -405,7 +372,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "tbtc",
+    "symbol": "tbtc",
+    "name": "tBTC",
+    "contract_address": "6DNSN2BJsaPFdFFc1zP37kkeNe4Usc1Sqkzr9C9vPWcU",
+    "local_image": "tbtc.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "ondo-us-dollar-yield",
+    "symbol": "usdy",
+    "name": "Ondo US Dollar Yield",
+    "contract_address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+    "local_image": "ondo-us-dollar-yield.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "saros-finance",
+    "symbol": "saros",
+    "name": "Saros",
+    "contract_address": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+    "local_image": "saros-finance.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "aethir",
     "symbol": "ath",
     "name": "Aethir",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "swissborg",
     "symbol": "borg",
     "name": "SwissBorg",
@@ -427,18 +427,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "raydium",
-    "symbol": "ray",
-    "name": "Raydium",
-    "contract_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
-    "local_image": "raydium.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "dogwifcoin",
     "symbol": "wif",
     "name": "dogwifhat",
@@ -449,7 +438,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "raydium",
+    "symbol": "ray",
+    "name": "Raydium",
+    "contract_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "local_image": "raydium.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "virtual-protocol",
     "symbol": "virtual",
     "name": "Virtuals Protocol",
@@ -460,18 +460,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "helium",
-    "symbol": "hnt",
-    "name": "Helium",
-    "contract_address": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
-    "local_image": "helium.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "jito-governance-token",
     "symbol": "jto",
     "name": "Jito",
@@ -482,7 +471,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "instadapp",
     "symbol": "fluid",
     "name": "Fluid",
@@ -493,40 +482,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "loaded-lions",
-    "symbol": "lion",
-    "name": "Loaded Lions",
-    "contract_address": "7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
-    "local_image": "loaded-lions.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "bybit-staked-sol",
-    "symbol": "bbsol",
-    "name": "Bybit Staked SOL",
-    "contract_address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
-    "local_image": "bybit-staked-sol.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "zebec-network",
-    "symbol": "zbcn",
-    "name": "Zebec Network",
-    "contract_address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-    "local_image": "zebec-network.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "fartcoin",
     "symbol": "fartcoin",
     "name": "Fartcoin",
@@ -537,7 +493,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "helium",
+    "symbol": "hnt",
+    "name": "Helium",
+    "contract_address": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
+    "local_image": "helium.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "wormhole",
     "symbol": "w",
     "name": "Wormhole",
@@ -548,40 +515,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "solv-protocol-solvbtc-bbn",
-    "symbol": "xsolvbtc",
-    "name": "Solv Protocol Staked BTC",
-    "contract_address": "SoLvAiHLF7LGEaiTN5KGZt1bNnraoWTi5mjcvRoDAX4",
-    "local_image": "solv-protocol-solvbtc-bbn.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "drift-staked-sol",
-    "symbol": "dsol",
-    "name": "Drift Staked SOL",
-    "contract_address": "Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ",
-    "local_image": "drift-staked-sol.png",
+    "extract_time": 1760350549.8129194,
+    "id": "loaded-lions",
+    "symbol": "lion",
+    "name": "Loaded Lions",
+    "contract_address": "7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
+    "local_image": "loaded-lions.png",
     "metadata": {
       "decimals": 9
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "euro-coin",
-    "symbol": "eurc",
-    "name": "EURC",
-    "contract_address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
-    "local_image": "euro-coin.png",
+    "extract_time": 1760350549.8129194,
+    "id": "zebec-network",
+    "symbol": "zbcn",
+    "name": "Zebec Network",
+    "contract_address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+    "local_image": "zebec-network.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "bybit-staked-sol",
+    "symbol": "bbsol",
+    "name": "Bybit Staked SOL",
+    "contract_address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+    "local_image": "bybit-staked-sol.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "useless-3",
     "symbol": "useless",
     "name": "Useless Coin",
@@ -592,29 +559,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "soon-2",
-    "symbol": "soon",
-    "name": "SOON",
-    "contract_address": "4eDf52YYzL6i6gbZ6FXqrLUPXbtP61f1gPSFM66M4XHe",
-    "local_image": "soon-2.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "rekt-4",
-    "symbol": "rekt",
-    "name": "Rekt",
-    "contract_address": "vQoYWru2pbUdcVkUrRH74ktQDJgVjRcDvsoDbUzM5n9",
-    "local_image": "rekt-4.png",
-    "metadata": {
-      "decimals": 4
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "basic-attention-token",
     "symbol": "bat",
     "name": "Basic Attention",
@@ -625,18 +570,62 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "usx",
-    "symbol": "usx",
-    "name": "USX",
-    "contract_address": "6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG",
-    "local_image": "usx.png",
+    "extract_time": 1760350549.8129194,
+    "id": "drift-staked-sol",
+    "symbol": "dsol",
+    "name": "Drift Staked SOL",
+    "contract_address": "Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ",
+    "local_image": "drift-staked-sol.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "solv-protocol-solvbtc-bbn",
+    "symbol": "xsolvbtc",
+    "name": "Solv Protocol Staked BTC",
+    "contract_address": "SoLvAiHLF7LGEaiTN5KGZt1bNnraoWTi5mjcvRoDAX4",
+    "local_image": "solv-protocol-solvbtc-bbn.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "euro-coin",
+    "symbol": "eurc",
+    "name": "EURC",
+    "contract_address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+    "local_image": "euro-coin.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "soon-2",
+    "symbol": "soon",
+    "name": "SOON",
+    "contract_address": "4eDf52YYzL6i6gbZ6FXqrLUPXbtP61f1gPSFM66M4XHe",
+    "local_image": "soon-2.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "rekt-4",
+    "symbol": "rekt",
+    "name": "Rekt",
+    "contract_address": "vQoYWru2pbUdcVkUrRH74ktQDJgVjRcDvsoDbUzM5n9",
+    "local_image": "rekt-4.png",
+    "metadata": {
+      "decimals": 4
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "drift-protocol",
     "symbol": "drift",
     "name": "Drift Protocol",
@@ -647,7 +636,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "usx",
+    "symbol": "usx",
+    "name": "USX",
+    "contract_address": "6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG",
+    "local_image": "usx.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "dog-go-to-the-moon-rune",
     "symbol": "dog",
     "name": "Dog (Bitcoin)",
@@ -658,40 +658,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "gmt-token",
-    "symbol": "gomining",
-    "name": "GoMining Token",
-    "contract_address": "3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf",
-    "local_image": "gmt-token.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "universal-btc",
-    "symbol": "unibtc",
-    "name": "Universal BTC",
-    "contract_address": "uniBKsEV37qLRFZD7v3Z9drX6voyiCM8WcaePqeSSLc",
-    "local_image": "universal-btc.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "standx-dusd",
-    "symbol": "dusd",
-    "name": "StandX DUSD",
-    "contract_address": "DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
-    "local_image": "standx-dusd.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "baby-doge-coin",
     "symbol": "babydoge",
     "name": "Baby Doge Coin",
@@ -702,7 +669,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "turbo",
     "symbol": "turbo",
     "name": "Turbo",
@@ -713,7 +680,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "cat-in-a-dogs-world",
     "symbol": "mew",
     "name": "cat in a dogs world",
@@ -724,7 +691,29 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "universal-btc",
+    "symbol": "unibtc",
+    "name": "Universal BTC",
+    "contract_address": "uniBKsEV37qLRFZD7v3Z9drX6voyiCM8WcaePqeSSLc",
+    "local_image": "universal-btc.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "standx-dusd",
+    "symbol": "dusd",
+    "name": "StandX DUSD",
+    "contract_address": "DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
+    "local_image": "standx-dusd.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "kamino",
     "symbol": "kmno",
     "name": "Kamino",
@@ -735,7 +724,29 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "gmt-token",
+    "symbol": "gomining",
+    "name": "GoMining Token",
+    "contract_address": "3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf",
+    "local_image": "gmt-token.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "fefe-2",
+    "symbol": "fefe",
+    "name": "Fefe",
+    "contract_address": "Fjk4u44UQFo3Wb2vhPXE9FSjngP8uNJJd6Jzd5JJhD6x",
+    "local_image": "fefe-2.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "bio-protocol",
     "symbol": "bio",
     "name": "Bio Protocol",
@@ -746,7 +757,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "grass",
     "symbol": "grass",
     "name": "Grass",
@@ -757,7 +768,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "phantom-staked-sol",
     "symbol": "psol",
     "name": "Phantom Staked SOL",
@@ -768,7 +779,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "popcat",
     "symbol": "popcat",
     "name": "Popcat",
@@ -779,7 +790,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "tdccp",
     "symbol": "tdccp",
     "name": "TDCCP",
@@ -790,40 +801,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "metaplex",
-    "symbol": "mplx",
-    "name": "Metaplex",
-    "contract_address": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
-    "local_image": "metaplex.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "agora-dollar",
-    "symbol": "ausd",
-    "name": "AUSD",
-    "contract_address": "AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
-    "local_image": "agora-dollar.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "world-mobile-token",
-    "symbol": "wmtx",
-    "name": "World Mobile Token",
-    "contract_address": "WMTXyYKUMTG3VuZA5beXuHVRLpyTwwaoP7h2i8YpuRH",
-    "local_image": "world-mobile-token.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "peanut-the-squirrel",
     "symbol": "pnut",
     "name": "Peanut the Squirrel",
@@ -834,29 +812,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "frax-share",
-    "symbol": "frax",
-    "name": "Frax (prev. FXS)",
-    "contract_address": "6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct",
-    "local_image": "frax-share.png",
-    "metadata": {
-      "decimals": 8
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "meta-2-2",
-    "symbol": "meta",
-    "name": "MetaDAO",
-    "contract_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-    "local_image": "meta-2-2.png",
+    "extract_time": 1760350549.8129194,
+    "id": "metaplex",
+    "symbol": "mplx",
+    "name": "Metaplex",
+    "contract_address": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+    "local_image": "metaplex.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "zignaly",
     "symbol": "zig",
     "name": "ZIGChain",
@@ -867,29 +834,51 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "apollo-diversified-credit-securitize-fund",
-    "symbol": "acred",
-    "name": "Apollo Diversified Credit Securitize Fund",
-    "contract_address": "FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
-    "local_image": "apollo-diversified-credit-securitize-fund.png",
+    "extract_time": 1760350549.8129194,
+    "id": "meta-2-2",
+    "symbol": "meta",
+    "name": "MetaDAO",
+    "contract_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+    "local_image": "meta-2-2.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "yu",
-    "symbol": "yu",
-    "name": "Yala Stablecoin",
-    "contract_address": "YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu",
-    "local_image": "yu.png",
+    "extract_time": 1760350549.8129194,
+    "id": "frax-share",
+    "symbol": "frax",
+    "name": "Frax (prev. FXS)",
+    "contract_address": "6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct",
+    "local_image": "frax-share.png",
+    "metadata": {
+      "decimals": 8
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "world-mobile-token",
+    "symbol": "wmtx",
+    "name": "World Mobile Token",
+    "contract_address": "WMTXyYKUMTG3VuZA5beXuHVRLpyTwwaoP7h2i8YpuRH",
+    "local_image": "world-mobile-token.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "agora-dollar",
+    "symbol": "ausd",
+    "name": "AUSD",
+    "contract_address": "AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
+    "local_image": "agora-dollar.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "threshold-network-token",
     "symbol": "t",
     "name": "Threshold Network",
@@ -900,7 +889,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "non-playable-coin",
     "symbol": "npc",
     "name": "Non-Playable Coin",
@@ -911,29 +900,29 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "payfi-strategy-token-usdc",
-    "symbol": "pstusdc",
-    "name": "PayFi Strategy Token USDC",
-    "contract_address": "59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
-    "local_image": "payfi-strategy-token-usdc.png",
+    "extract_time": 1760350549.8129194,
+    "id": "apollo-diversified-credit-securitize-fund",
+    "symbol": "acred",
+    "name": "Apollo Diversified Credit Securitize Fund",
+    "contract_address": "FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
+    "local_image": "apollo-diversified-credit-securitize-fund.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "marsmi",
-    "symbol": "marsmi",
-    "name": "MarsMi",
-    "contract_address": "GqXX9MfkURBZ5cFym9HDzqTL7uZkjtCSqLkUSe2xpump",
-    "local_image": "marsmi.png",
+    "extract_time": 1760350549.8129194,
+    "id": "yu",
+    "symbol": "yu",
+    "name": "Yala Stablecoin",
+    "contract_address": "YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu",
+    "local_image": "yu.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "moo-deng",
     "symbol": "moodeng",
     "name": "Moo Deng",
@@ -944,7 +933,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "ordinals",
     "symbol": "ordi",
     "name": "ORDI",
@@ -955,18 +944,18 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "onyc",
-    "symbol": "onyc",
-    "name": "Onchain Yield Coin",
-    "contract_address": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5",
-    "local_image": "onyc.png",
+    "extract_time": 1760350549.8129194,
+    "id": "marsmi",
+    "symbol": "marsmi",
+    "name": "MarsMi",
+    "contract_address": "GqXX9MfkURBZ5cFym9HDzqTL7uZkjtCSqLkUSe2xpump",
+    "local_image": "marsmi.png",
     "metadata": {
-      "decimals": 9
+      "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "sushi",
     "symbol": "sushi",
     "name": "Sushi",
@@ -977,29 +966,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "swop-2",
-    "symbol": "swop",
-    "name": "Swop",
-    "contract_address": "GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1",
-    "local_image": "swop-2.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
-    "id": "debridge",
-    "symbol": "dbr",
-    "name": "deBridge",
-    "contract_address": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
-    "local_image": "debridge.png",
-    "metadata": {
-      "decimals": 6
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "troll-2",
     "symbol": "troll",
     "name": "TROLL",
@@ -1010,29 +977,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "gohome",
-    "symbol": "gohome",
-    "name": "GOHOME",
-    "contract_address": "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD",
-    "local_image": "gohome.png",
+    "extract_time": 1760350549.8129194,
+    "id": "debridge",
+    "symbol": "dbr",
+    "name": "deBridge",
+    "contract_address": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+    "local_image": "debridge.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "wrapped-savings-rusd",
-    "symbol": "wsrusd",
-    "name": "Wrapped Savings rUSD",
-    "contract_address": "7bxM8cRFZpzonzZtzmrcWHNX1dijrEVU4VkjjtVyBmqE",
-    "local_image": "wrapped-savings-rusd.png",
+    "extract_time": 1760350549.8129194,
+    "id": "payfi-strategy-token-usdc",
+    "symbol": "pstusdc",
+    "name": "PayFi Strategy Token USDC",
+    "contract_address": "59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
+    "local_image": "payfi-strategy-token-usdc.png",
+    "metadata": {
+      "decimals": 6
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "onyc",
+    "symbol": "onyc",
+    "name": "Onchain Yield Coin",
+    "contract_address": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5",
+    "local_image": "onyc.png",
     "metadata": {
       "decimals": 9
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "orca",
     "symbol": "orca",
     "name": "Orca",
@@ -1043,18 +1021,7 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "wilder-world",
-    "symbol": "wild",
-    "name": "Wilder World",
-    "contract_address": "FVvd3s9dZYzsgitkJyWbmycSc8MkYZjyF7oqAEvmSxTZ",
-    "local_image": "wilder-world.png",
-    "metadata": {
-      "decimals": 9
-    }
-  },
-  {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
     "id": "melania-meme",
     "symbol": "melania",
     "name": "Melania Meme",
@@ -1065,18 +1032,40 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "vaneck-treasury-fund",
-    "symbol": "vbill",
-    "name": "VanEck Treasury Fund",
-    "contract_address": "34mJztT9am2jybSukvjNqRjgJBZqHJsHnivArx1P4xy1",
-    "local_image": "vaneck-treasury-fund.png",
+    "extract_time": 1760350549.8129194,
+    "id": "swop-2",
+    "symbol": "swop",
+    "name": "Swop",
+    "contract_address": "GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1",
+    "local_image": "swop-2.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "gohome",
+    "symbol": "gohome",
+    "name": "GOHOME",
+    "contract_address": "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD",
+    "local_image": "gohome.png",
     "metadata": {
       "decimals": 6
     }
   },
   {
-    "extract_time": 1760263921.0951052,
+    "extract_time": 1760350549.8129194,
+    "id": "clearpool",
+    "symbol": "cpool",
+    "name": "Clearpool",
+    "contract_address": "AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg",
+    "local_image": "clearpool.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
     "id": "stepn",
     "symbol": "gmt",
     "name": "GMT",
@@ -1087,12 +1076,23 @@
     }
   },
   {
-    "extract_time": 1760263921.0951052,
-    "id": "clearpool",
-    "symbol": "cpool",
-    "name": "Clearpool",
-    "contract_address": "AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg",
-    "local_image": "clearpool.png",
+    "extract_time": 1760350549.8129194,
+    "id": "ben-pasternak",
+    "symbol": "launchcoin",
+    "name": "Launch Coin on Believe",
+    "contract_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+    "local_image": "ben-pasternak.png",
+    "metadata": {
+      "decimals": 9
+    }
+  },
+  {
+    "extract_time": 1760350549.8129194,
+    "id": "woo-network",
+    "symbol": "woo",
+    "name": "WOO",
+    "contract_address": "Dz8VutERqbHR2aFL5A3s1Ky4dG1unJT1jUFXXPaY9ytX",
+    "local_image": "woo-network.png",
     "metadata": {
       "decimals": 9
     }
