@@ -1,6 +1,6 @@
 [
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "usd-coin",
     "symbol": "usdc",
     "name": "USDC",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sui",
     "symbol": "sui",
     "name": "Sui",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "lombard-staked-btc",
     "symbol": "lbtc",
     "name": "Lombard Staked BTC",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "first-digital-usd",
     "symbol": "fdusd",
     "name": "First Digital USD",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "ondo-us-dollar-yield",
     "symbol": "usdy",
     "name": "Ondo US Dollar Yield",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "tbtc",
     "symbol": "tbtc",
     "name": "tBTC",
@@ -89,7 +89,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "lorenzo-wrapped-bitcoin",
     "symbol": "enzobtc",
     "name": "Lorenzo Wrapped Bitcoin",
@@ -98,7 +98,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "walrus-2",
     "symbol": "wal",
     "name": "Walrus",
@@ -107,7 +107,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "agora-dollar",
     "symbol": "ausd",
     "name": "AUSD",
@@ -123,7 +123,25 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "deep",
+    "symbol": "deep",
+    "name": "DeepBook",
+    "contract_address": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+    "local_image": "deep.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
+    "id": "sui-bridged-wbtc-sui",
+    "symbol": "wbtc",
+    "name": "Sui Bridged WBTC (Sui)",
+    "contract_address": "0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC",
+    "local_image": "sui-bridged-wbtc-sui.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "momentum-3",
     "symbol": "mmt",
     "name": "Momentum",
@@ -139,25 +157,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "deep",
-    "symbol": "deep",
-    "name": "DeepBook",
-    "contract_address": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
-    "local_image": "deep.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
-    "id": "sui-bridged-wbtc-sui",
-    "symbol": "wbtc",
-    "name": "Sui Bridged WBTC (Sui)",
-    "contract_address": "0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC",
-    "local_image": "sui-bridged-wbtc-sui.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "matrixdock-gold",
     "symbol": "xaum",
     "name": "Matrixdock Gold",
@@ -173,7 +173,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "swarm-network",
     "symbol": "truth",
     "name": "Swarm Network",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "aia",
     "symbol": "aia",
     "name": "DeAgentAI",
@@ -205,7 +205,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sui-bridged-usdt-sui",
     "symbol": "sbusdt",
     "name": "Sui Bridged USDT (Sui)",
@@ -214,7 +214,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "overtake",
     "symbol": "take",
     "name": "OVERTAKE",
@@ -230,7 +230,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sui-bridged-ether-sui",
     "symbol": "sbeth",
     "name": "Sui Bridged Ether (Sui)",
@@ -239,7 +239,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "ika",
     "symbol": "ika",
     "name": "Ika",
@@ -255,7 +255,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "bitcastle-token",
     "symbol": "bce",
     "name": "bitcastle Token",
@@ -264,7 +264,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "lorenzo-stbtc",
     "symbol": "stbtc",
     "name": "Lorenzo stBTC",
@@ -273,7 +273,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "cetus-protocol",
     "symbol": "cetus",
     "name": "Cetus Protocol",
@@ -289,23 +289,16 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "bucket-protocol-buck-stablecoin",
     "symbol": "buck",
     "name": "Bucket Protocol BUCK Stablecoin",
     "contract_address": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
     "local_image": "bucket-protocol-buck-stablecoin.png",
-    "metadata": {
-      "name": "Bucket USD",
-      "symbol": "BUCK",
-      "decimals": 9,
-      "description": "the stablecoin minted through bucketprotocol.io",
-      "iconUrl": "https://ipfs.io/ipfs/QmYH4seo7K9CiFqHGDmhbZmzewHEapAhN9aqLRA7af2vMW",
-      "id": "0x0db5e20f3fc2b12e294e5474babbec1c2efd96f21663accfbcb25da99a48838a"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "bluefin",
     "symbol": "blue",
     "name": "Bluefin",
@@ -314,7 +307,34 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "navi",
+    "symbol": "navx",
+    "name": "NAVI Protocol",
+    "contract_address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+    "local_image": "navi.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
+    "id": "sweatcoin",
+    "symbol": "sweat",
+    "name": "SWEAT",
+    "contract_address": "0xf0b202ef3e107ff4fc0142bbb9a607bf73b8f6460c5026d5c21c6f2e0a9a1083::coin::COIN",
+    "local_image": "sweatcoin.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
+    "id": "spring-staked-sui",
+    "symbol": "ssui",
+    "name": "Spring Staked SUI",
+    "contract_address": "0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI",
+    "local_image": "spring-staked-sui.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "xmoney-2",
     "symbol": "xmn",
     "name": "xMoney",
@@ -330,25 +350,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "sweatcoin",
-    "symbol": "sweat",
-    "name": "SWEAT",
-    "contract_address": "0xf0b202ef3e107ff4fc0142bbb9a607bf73b8f6460c5026d5c21c6f2e0a9a1083::coin::COIN",
-    "local_image": "sweatcoin.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
-    "id": "spring-staked-sui",
-    "symbol": "ssui",
-    "name": "Spring Staked SUI",
-    "contract_address": "0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI",
-    "local_image": "spring-staked-sui.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "haedal",
     "symbol": "haedal",
     "name": "Haedal Protocol",
@@ -364,25 +366,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "navi",
-    "symbol": "navx",
-    "name": "NAVI Protocol",
-    "contract_address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
-    "local_image": "navi.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
-    "id": "suilend",
-    "symbol": "send",
-    "name": "Suilend",
-    "contract_address": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND",
-    "local_image": "suilend.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sudeng",
     "symbol": "hippo",
     "name": "sudeng",
@@ -398,7 +382,23 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "suilend",
+    "symbol": "send",
+    "name": "Suilend",
+    "contract_address": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND",
+    "local_image": "suilend.png",
+    "metadata": {
+      "name": "SEND",
+      "symbol": "SEND",
+      "decimals": 6,
+      "description": "",
+      "iconUrl": "https://suilend-assets.s3.us-east-2.amazonaws.com/SEND/SEND.svg",
+      "id": "0xb6b35a38645914d654e82758d6ab11d4a22a9879a5688e9aa113fe8f8a2fcb3e"
+    }
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "bluwhale",
     "symbol": "bluai",
     "name": "Bluwhale",
@@ -414,7 +414,16 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "delorean",
+    "symbol": "dmc",
+    "name": "DeLorean",
+    "contract_address": "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::DMC",
+    "local_image": "delorean.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "alkimi-2",
     "symbol": "alkimi",
     "name": "ALKIMI",
@@ -430,7 +439,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "memefi-2",
     "symbol": "memefi",
     "name": "MemeFi",
@@ -439,7 +448,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "scallop-2",
     "symbol": "sca",
     "name": "Scallop",
@@ -455,16 +464,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "miu-2",
-    "symbol": "miu",
-    "name": "MIU",
-    "contract_address": "0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU",
-    "local_image": "miu-2.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "alpha-fi",
     "symbol": "alpha",
     "name": "Alpha Fi",
@@ -473,7 +473,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "lofi-2",
     "symbol": "lofi",
     "name": "LOFI",
@@ -489,16 +489,16 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "suins-token",
-    "symbol": "ns",
-    "name": "SuiNS Token",
-    "contract_address": "0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS",
-    "local_image": "suins-token.png",
+    "extract_time": 1763892793.8072455,
+    "id": "miu-2",
+    "symbol": "miu",
+    "name": "MIU",
+    "contract_address": "0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU",
+    "local_image": "miu-2.png",
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "doubleup",
     "symbol": "up",
     "name": "DoubleUp",
@@ -507,16 +507,16 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "delorean",
-    "symbol": "dmc",
-    "name": "DeLorean",
-    "contract_address": "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::DMC",
-    "local_image": "delorean.png",
+    "extract_time": 1763892793.8072455,
+    "id": "suins-token",
+    "symbol": "ns",
+    "name": "SuiNS Token",
+    "contract_address": "0x5145494a5f5100e645e4b0aa950fa6b68f614e8c59e17bc5ded3495123a79178::ns::NS",
+    "local_image": "suins-token.png",
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "pstake-finance",
     "symbol": "pstake",
     "name": "pSTAKE Finance",
@@ -525,23 +525,16 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "yield-btc-b",
     "symbol": "ybtc.b",
     "name": "Yield BTC.B",
     "contract_address": "0xa03ab7eee2c8e97111977b77374eaf6324ba617e7027382228350db08469189e::ybtc::YBTC",
     "local_image": "yield-btc-b.png",
-    "metadata": {
-      "name": "Yield BTC.B",
-      "symbol": "YBTC.B",
-      "decimals": 8,
-      "description": "YBTC.B is a wrapped version of Bitlayer's Native BTC, enabling seamless cross-chain liquidity for DeFi across EVM and non-EVM chains",
-      "iconUrl": null,
-      "id": "0x631bf66abe413fbc25f92865c7623647f8c3c3b56452d05ebc931a4c87e8fc9b"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "onbuff",
     "symbol": "lwa",
     "name": "LumiWave",
@@ -557,7 +550,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "meta-usd",
     "symbol": "musd",
     "name": "Meta USD",
@@ -566,7 +559,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "turbos-finance",
     "symbol": "turbos",
     "name": "Turbos Finance",
@@ -575,25 +568,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "xsui",
-    "symbol": "xsui",
-    "name": "xSUI",
-    "contract_address": "0x2b6602099970374cf58a2a1b9d96f005fccceb81e92eb059873baf420eb6c717::x_sui::X_SUI",
-    "local_image": "xsui.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
-    "id": "attention",
-    "symbol": "attn",
-    "name": "Attention",
-    "contract_address": "0x0ef38abcdaaafedd1e2d88929068a3f65b59bf7ee07d7e8f573c71df02d27522::attn::ATTN",
-    "local_image": "attention.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "xociety",
     "symbol": "xo",
     "name": "Xociety",
@@ -602,7 +577,25 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "xsui",
+    "symbol": "xsui",
+    "name": "xSUI",
+    "contract_address": "0x2b6602099970374cf58a2a1b9d96f005fccceb81e92eb059873baf420eb6c717::x_sui::X_SUI",
+    "local_image": "xsui.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
+    "id": "attention",
+    "symbol": "attn",
+    "name": "Attention",
+    "contract_address": "0x0ef38abcdaaafedd1e2d88929068a3f65b59bf7ee07d7e8f573c71df02d27522::attn::ATTN",
+    "local_image": "attention.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "blub",
     "symbol": "blub",
     "name": "BLUB",
@@ -611,7 +604,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "manifest-3",
     "symbol": "manifest",
     "name": "MANIFEST",
@@ -627,7 +620,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "flowx-finance",
     "symbol": "flx",
     "name": "FlowX Finance",
@@ -636,16 +629,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "chirp-token",
-    "symbol": "chirp",
-    "name": "Chirp Token",
-    "contract_address": "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::CHIRP",
-    "local_image": "chirp-token.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "balance-tokens",
     "symbol": "baln",
     "name": "Balanced",
@@ -654,7 +638,16 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "chirp-token",
+    "symbol": "chirp",
+    "name": "Chirp Token",
+    "contract_address": "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::CHIRP",
+    "local_image": "chirp-token.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "bucket-token",
     "symbol": "but",
     "name": "Bucket Token",
@@ -663,7 +656,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suiai",
     "symbol": "suai",
     "name": "SuiAI",
@@ -679,16 +672,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "fud-the-pug",
-    "symbol": "fud",
-    "name": "Fud the Pug",
-    "contract_address": "0x76cb819b01abed502bee8a702b4c2d547532c12f25001c9dea795a5e631c26f1::fud::FUD",
-    "local_image": "fud-the-pug.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "koban",
     "symbol": "koban",
     "name": "KOBAN",
@@ -704,16 +688,16 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "bluemove",
-    "symbol": "move",
-    "name": "BlueMove",
-    "contract_address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
-    "local_image": "bluemove.png",
+    "extract_time": 1763892793.8072455,
+    "id": "fud-the-pug",
+    "symbol": "fud",
+    "name": "Fud the Pug",
+    "contract_address": "0x76cb819b01abed502bee8a702b4c2d547532c12f25001c9dea795a5e631c26f1::fud::FUD",
+    "local_image": "fud-the-pug.png",
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "axol",
     "symbol": "axol",
     "name": "AXOL",
@@ -722,7 +706,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "tardi",
     "symbol": "tardi",
     "name": "Tardi",
@@ -731,7 +715,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "e4c",
     "symbol": "e4c",
     "name": "E4C",
@@ -747,7 +731,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sroomai-dao",
     "symbol": "shr0",
     "name": "SroomAI DAO",
@@ -763,7 +747,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sui-trump",
     "symbol": "suitrump",
     "name": "SUI TRUMP",
@@ -772,23 +756,16 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suipad",
     "symbol": "suip",
     "name": "SuiPad",
     "contract_address": "0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP",
     "local_image": "suipad.png",
-    "metadata": {
-      "name": "SuiPad",
-      "symbol": "SUIP",
-      "decimals": 9,
-      "description": "SuiPad The Premier Launchpad for Tier-1 Projects",
-      "iconUrl": "",
-      "id": "0xdd15b115fede43bf4a499cb1bb1e81b3bba9a84f00da5adcf3759cfdcb1fcad0"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "typus",
     "symbol": "typus",
     "name": "Typus",
@@ -797,7 +774,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "artfi",
     "symbol": "artfi",
     "name": "ARTFI",
@@ -806,7 +783,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sui-agents",
     "symbol": "suiai",
     "name": "SUI Agents",
@@ -815,23 +792,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "full-sail",
-    "symbol": "sail",
-    "name": "Full Sail",
-    "contract_address": "0x1d4a2bdbc1602a0adaa98194942c220202dcc56bb0a205838dfaa63db0d5497e::SAIL::SAIL",
-    "local_image": "full-sail.png",
-    "metadata": {
-      "name": "SAIL",
-      "symbol": "SAIL",
-      "decimals": 6,
-      "description": "Full Sail Governance Token",
-      "iconUrl": "https://app.fullsail.finance/static_files/sail_coin.png",
-      "id": "0x09560bc6b5a8e03070791352089eed8a8c27de0849059608be7e4cd469e74756"
-    }
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "usdz",
     "symbol": "usdz",
     "name": "USDZ",
@@ -840,7 +801,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sonic-snipe-bot",
     "symbol": "sonic",
     "name": "Sonic Snipe Bot",
@@ -849,7 +810,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suicune-on-sui",
     "symbol": "hsui",
     "name": "Suicune",
@@ -865,7 +826,23 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "full-sail",
+    "symbol": "sail",
+    "name": "Full Sail",
+    "contract_address": "0x1d4a2bdbc1602a0adaa98194942c220202dcc56bb0a205838dfaa63db0d5497e::SAIL::SAIL",
+    "local_image": "full-sail.png",
+    "metadata": {
+      "name": "SAIL",
+      "symbol": "SAIL",
+      "decimals": 6,
+      "description": "Full Sail Governance Token",
+      "iconUrl": "https://app.fullsail.finance/static_files/sail_coin.png",
+      "id": "0x09560bc6b5a8e03070791352089eed8a8c27de0849059608be7e4cd469e74756"
+    }
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "seed-3",
     "symbol": "seed",
     "name": "SEED",
@@ -874,16 +851,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
-    "id": "aaa-cat",
-    "symbol": "aaa",
-    "name": "aaa cat",
-    "contract_address": "0xd976fda9a9786cda1a36dee360013d775a5e5f206f8e20f84fad3385e99eeb2d::aaa::AAA",
-    "local_image": "aaa-cat.png",
-    "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "pandasui-coin",
     "symbol": "pans",
     "name": "PandaSui Coin",
@@ -892,7 +860,16 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "aaa-cat",
+    "symbol": "aaa",
+    "name": "aaa cat",
+    "contract_address": "0xd976fda9a9786cda1a36dee360013d775a5e5f206f8e20f84fad3385e99eeb2d::aaa::AAA",
+    "local_image": "aaa-cat.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "meow-3",
     "symbol": "meow",
     "name": "MEOW",
@@ -901,7 +878,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "brat-2",
     "symbol": "brat",
     "name": "BRAT",
@@ -917,7 +894,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "elixir-deusd",
     "symbol": "deusd",
     "name": "Elixir deUSD",
@@ -933,7 +910,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "pigu",
     "symbol": "pigu",
     "name": "PIGU",
@@ -942,7 +919,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "slaunch",
     "symbol": "s",
     "name": "Slaunch",
@@ -951,7 +928,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "toilet-dust",
     "symbol": "toilet",
     "name": "Toilet Dust",
@@ -960,7 +937,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "zenfrogs",
     "symbol": "zen",
     "name": "ZenFrogs",
@@ -969,7 +946,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "times",
     "symbol": "$times",
     "name": "TIMES",
@@ -978,7 +955,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "alpha-city-2",
     "symbol": "city",
     "name": "Alpha City",
@@ -987,7 +964,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "pugwifhat",
     "symbol": "pugwif",
     "name": "PUGWIFHAT",
@@ -996,7 +973,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "uni",
     "symbol": "uni",
     "name": "Uni",
@@ -1005,7 +982,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "pumpkin-token",
     "symbol": "pumpkin",
     "name": "PUMPKIN TOKEN",
@@ -1014,7 +991,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "agent-s",
     "symbol": "s",
     "name": "Agent S",
@@ -1023,23 +1000,25 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "culosui",
     "symbol": "culo",
     "name": "CULOSUI",
     "contract_address": "0xf33bdc280faf4bd0411cac82173b5744b7a40e4b9abc0ad6f51a495c060faf77::culo::CULO",
     "local_image": "culosui.png",
-    "metadata": {
-      "name": "CULOSUI",
-      "symbol": "CULO",
-      "decimals": 6,
-      "description": "The cheekiest meme token on Sui! Join the rumpus, moon with us!",
-      "iconUrl": "https://ipfs.io/ipfs/bafkreihw22w4ofapvynf3czp4qffviybcvvpwzj62jujrjjqurljtutq3m",
-      "id": "0x940cec8787e13b51906f1f602520480c5b74ad3e39e634ad65ae04223e6d5e33"
-    }
+    "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "bluemove",
+    "symbol": "move",
+    "name": "BlueMove",
+    "contract_address": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
+    "local_image": "bluemove.png",
+    "metadata": {}
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "sui-depin",
     "symbol": "suidepin",
     "name": "Sui DePIN",
@@ -1048,7 +1027,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "super-suiyan",
     "symbol": "suiyan",
     "name": "Super Suiyan",
@@ -1057,7 +1036,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suijak",
     "symbol": "suijak",
     "name": "Suijak",
@@ -1066,7 +1045,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "sacabam",
     "symbol": "scb",
     "name": "Sacabam",
@@ -1082,7 +1061,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "wave",
     "symbol": "wav",
     "name": "WAVE",
@@ -1091,7 +1070,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suiswap",
     "symbol": "sswp",
     "name": "Suiswap",
@@ -1100,7 +1079,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "suite-2",
     "symbol": "suite",
     "name": "Suite",
@@ -1109,7 +1088,7 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "rockee-ai",
     "symbol": "rock",
     "name": "Rockee AI",
@@ -1125,7 +1104,7 @@
     }
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
     "id": "slove",
     "symbol": "slove",
     "name": "SLOVE",
@@ -1134,28 +1113,28 @@
     "metadata": {}
   },
   {
-    "extract_time": 1763806397.108218,
+    "extract_time": 1763892793.8072455,
+    "id": "aida-2",
+    "symbol": "aida",
+    "name": "Aida",
+    "contract_address": "0xcee208b8ae33196244b389e61ffd1202e7a1ae06c8ec210d33402ff649038892::aida::AIDA",
+    "local_image": "aida-2.png",
+    "metadata": {
+      "name": "Aida",
+      "symbol": "Aida",
+      "decimals": 9,
+      "description": "The best Sui ambassador",
+      "iconUrl": "data:image/jpeg;base64,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",
+      "id": "0x591bd6e9daf2ce64436329f3060217078f4cdeac2a4e66f506bb12b3a7fd99f8"
+    }
+  },
+  {
+    "extract_time": 1763892793.8072455,
     "id": "dapyai",
     "symbol": "$dapy",
     "name": "DapyAI",
     "contract_address": "0x23e99e646a4071609a2957d0b7c7bac73eaefc2f94640e9d8d54e4ab77f8cd6e::dapy::DAPY",
     "local_image": "dapyai.png",
     "metadata": {}
-  },
-  {
-    "extract_time": 1763806397.108218,
-    "id": "skeleton",
-    "symbol": "skelsui",
-    "name": "SKELETON",
-    "contract_address": "0x84604526d71bbe7738c3c02d3c8a48778955718289c03d814d8468b58ae9a898::skelsui::SKELSUI",
-    "local_image": "skeleton.png",
-    "metadata": {
-      "name": "SKELETON",
-      "symbol": "SKELSUI",
-      "decimals": 6,
-      "description": "The SKELSUI crew doesnt rug. Bound by an ironclad code of ethics, they carve out a corner of the crypto wilds where trust isnt just a buzzwordits the foundation.In the SKELSUI crypt, holders arent just bagholderstheyre rebels, creators, and dreamers building a decentralized future. From the glowing skulls of the O.G. SKELSUI to the rare GlitchBones with their pixelated swagger, each token pulses with the spirit of a community that values every voice. No central overlords, no shady devsjust a skeleton crew dedicated to keeping it real. Grab your SKELSUI. Join the crypt. Thrive where others rot.",
-      "iconUrl": "https://ipfs.io/ipfs/bafybeidr3x5pspp52u5wlxjkhawoflfcvqgf7ls4uex4a2wr6w7qlm4vke",
-      "id": "0x2bf2bd9cef9e714e1b4dd4bd09fc6cf5e71e01ad3745ac58a68a6b1b99a4ab1c"
-    }
   }
 ]
